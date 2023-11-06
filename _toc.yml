@@ -1,0 +1,29 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+- caption: Introduction générale
+  numbered: false
+  chapters:
+    - file: intro_geoinformatique.ipynb
+      title: Liste des cours de Géoinformatique
+- caption: Cours de Python
+  numbered: true
+  chapters:
+    - file: IP/intro_python.ipynb
+      title: Introduction à Python
+      sections:
+        - file: IP/W1_S1.ipynb
+          title: Semaine 1 - Exercice
+- caption: Cours de Cartographie       
+  numbered: true
+  chapters:
+    - file: markdown
+      title: Markdown test
+    - file: notebooks
+      title: notebook test
+    - file: markdown-notebooks
+      title: test
+
