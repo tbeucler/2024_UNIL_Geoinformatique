@@ -9,21 +9,36 @@ parts:
   chapters:
     - file: intro_geoinformatique.ipynb
       title: Liste des cours de Géoinformatique
-- caption: Cours de Python
+- caption: Partie 1 - Cartographie et géoinformatique
   numbered: true
   chapters:
+    - file: Carto/intro_carto.ipynb
+      title: Introduction à la cartographie
+      sections:
+        - file: Carto/S1_carto_exercice.ipynb
+          title: Semaine 1 - Exercice
     - file: IP/intro_python.ipynb
       title: Introduction à Python
       sections:
-        - file: IP/W1_S1.ipynb
+        - file: IP/S1_IP_exercice.ipynb
           title: Semaine 1 - Exercice
-- caption: Cours de Cartographie       
+    - file: SIG/intro_SIG.ipynb
+      title: Introduction au SIG
+      sections:
+        - file: SIG/S1_SIG_exercice.ipynb
+          title: Semaine 1 - Exercice
+- caption: Partie 2 Modélisation numérique
   numbered: true
   chapters:
     - file: markdown
       title: Markdown test
+- caption: Partie 3 Méthode Quantitative
+  numbered: true
+  chapters:
     - file: notebooks
       title: notebook test
+- caption: Partie 4 Analyse des données environnementales
+  numbered: true
+  chapters:
     - file: markdown-notebooks
       title: test
-
