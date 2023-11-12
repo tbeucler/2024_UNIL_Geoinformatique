@@ -15,30 +15,47 @@ parts:
     - file: Carto/intro_carto.ipynb
       title: Introduction à la cartographie
       sections:
-        - file: Carto/S1_carto_exercice.ipynb
-          title: Semaine 1 - Exercice
+        - file: Carto/S1_carto.ipynb
+          title: Semaine 1 - Cadre général
+        - file: Carto/S2_carto.ipynb
+          title: Semaine 2 - Modélisation du territoire, généralisation
+        - file: Carto/S3_carto.ipynb
+          title: Semaine 3 - Types de cartes, sémiologie graphique, règles de représentation
+        - file: Carto/S4_carto.ipynb
+          title: Semaine 4 - Indicateurs et discrétisation
+        - file: Carto/S5_carto.ipynb
+          title: Semaine 5 - Habillage des cartes
+        - file: Carto/S6_carto.ipynb
+          title: Semaine 6 - Principe de base des SIG
     - file: IP/intro_python.ipynb
       title: Introduction à Python
       sections:
+        - file: IP/S1_IP.ipynb
+          title: Semaine 1 - Introduction et bases de la programmation
         - file: IP/S1_IP_exercice.ipynb
-          title: Semaine 1 - Exercice
+          title: Exercice semaine 1
     - file: SIG/intro_SIG.ipynb
       title: Introduction au SIG
       sections:
         - file: SIG/S1_SIG_exercice.ipynb
-          title: Semaine 1 - Exercice
-- caption: Partie 2 Modélisation numérique
+          title: Semaine 1 - Introduction et bases de la programmation
+- caption: Partie 2 - Méthodes quantitatives
   numbered: true
   chapters:
-    - file: markdown
-      title: Markdown test
-- caption: Partie 3 Méthode Quantitative
+    - file: MQ/intro_MQ.ipynb
+      title: Introduction aux Méthodes Quantitative
+- caption: Partie 3 - Modélisation numérique
   numbered: true
   chapters:
-    - file: notebooks
-      title: notebook test
-- caption: Partie 4 Analyse des données environnementales
+    - file: Mod_Num/intro_Mod_Num.ipynb
+      title: Introduction à la Modélisation Numérique
+- caption: Partie 4 - Analyse des données environnementales
   numbered: true
   chapters:
-    - file: markdown-notebooks
-      title: test
+    - file: ADE/intro_ADE.ipynb
+      title: Introduction à l'Analyse des Données Environnementales
+- caption: Partie 5 - Géoinformatique Intégrée
+  numbered: true
+  chapters:
+    - file: Geoinf/intro_geoinf.ipynb
+      title: Introduction à la Géoinformatique Intégrée
