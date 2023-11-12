@@ -13,7 +13,7 @@ parts:
   numbered: true
   chapters:
     - file: Carto/intro_carto.ipynb
-      title: Introduction à la cartographie
+      title: Cartographie
       sections:
         - file: Carto/S1_carto.ipynb
           title: Semaine 1 - Cadre général
@@ -28,22 +28,35 @@ parts:
         - file: Carto/S6_carto.ipynb
           title: Semaine 6 - Principe de base des SIG
     - file: IP/intro_python.ipynb
-      title: Introduction à Python
+      title: Programmation Python
       sections:
         - file: IP/S1_IP.ipynb
           title: Semaine 1 - Introduction et bases de la programmation
-        - file: IP/S1_IP_exercice.ipynb
-          title: Exercice semaine 1
+          sections:
+            - file: IP/S1_IP_exercice.ipynb
+              title:  Exercice semaine 1
+        - file: IP/S2_IP.ipynb
+          title: Semaine 2 - Structures de contrôle
+        - file: IP/S3_IP.ipynb
+          title: Semaine 3 - Structures de données
+        - file: IP/S4_IP.ipynb
+          title: Semaine 4 - Fonctions
+        - file: IP/S5_IP.ipynb
+          title: Semaine 5 - Gestion des fichiers, exceptions et tests
+        - file: IP/S6_IP.ipynb
+          title: Semaine 6 - Classes et objets
     - file: SIG/intro_SIG.ipynb
-      title: Introduction au SIG
+      title: Géoinformatique
       sections:
-        - file: SIG/S1_SIG_exercice.ipynb
-          title: Semaine 1 - Introduction et bases de la programmation
+        - file: SIG/S7_SIG.ipynb
+          title: Semaine 7 - Gestion des données SIG
+        - file: SIG/S8_SIG.ipynb
+          title: Semaine 8 - Projections et systèmes de coordonnées, manipulation des géométries
 - caption: Partie 2 - Méthodes quantitatives
   numbered: true
   chapters:
     - file: MQ/intro_MQ.ipynb
-      title: Introduction aux Méthodes Quantitative
+      title: Méthodes Quantitative
 - caption: Partie 3 - Modélisation numérique
   numbered: true
   chapters:
