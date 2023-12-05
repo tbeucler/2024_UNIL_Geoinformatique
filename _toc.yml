@@ -16,42 +16,42 @@ parts:
       title: Cartographie
       sections:
         - file: Carto/S1_carto.ipynb
-          title: Semaine 1 - Cadre général
+          title: Chapitre 1 - Cadre général
         - file: Carto/S2_carto.ipynb
-          title: Semaine 2 - Modélisation du territoire, généralisation
+          title: Chapitre 2 - Modélisation du territoire, généralisation
         - file: Carto/S3_carto.ipynb
-          title: Semaine 3 - Types de cartes, sémiologie graphique, règles de représentation
+          title: Chapitre 3 - Types de cartes, sémiologie graphique, règles de représentation
         - file: Carto/S4_carto.ipynb
-          title: Semaine 4 - Indicateurs et discrétisation
+          title: Chapitre 4 - Indicateurs et discrétisation
         - file: Carto/S5_carto.ipynb
-          title: Semaine 5 - Habillage des cartes
+          title: Chapitre 5 - Habillage des cartes
         - file: Carto/S6_carto.ipynb
-          title: Semaine 6 - Principe de base des SIG
+          title: Chapitre 6 - Principe de base des SIG
     - file: IP/intro_python.ipynb
       title: Programmation Python
       sections:
         - file: IP/S1_IP.ipynb
-          title: Semaine 1 - Introduction et bases de la programmation
+          title: Chapitre 1 - Introduction et bases de la programmation
           sections:
             - file: IP/S1_IP_exercice.ipynb
               title:  Exercice semaine 1
         - file: IP/S2_IP.ipynb
-          title: Semaine 2 - Structures de contrôle
+          title: Chapitre 2 - Structures de contrôle
         - file: IP/S3_IP.ipynb
-          title: Semaine 3 - Structures de données
+          title: Chapitre 3 - Structures de données
         - file: IP/S4_IP.ipynb
-          title: Semaine 4 - Fonctions
+          title: Chapitre 4 - Fonctions
         - file: IP/S5_IP.ipynb
-          title: Semaine 5 - Gestion des fichiers, exceptions et tests
+          title: Chapitre 5 - Gestion des fichiers, exceptions et tests
         - file: IP/S6_IP.ipynb
-          title: Semaine 6 - Classes et objets
+          title: Chapitre 6 - Classes et objets
     - file: SIG/intro_SIG.ipynb
       title: Géoinformatique
       sections:
         - file: SIG/S7_SIG.ipynb
-          title: Semaine 7 - Gestion des données SIG
+          title: Chapitre 7 - Gestion des données SIG
         - file: SIG/S8_SIG.ipynb
-          title: Semaine 8 - Projections et systèmes de coordonnées, manipulation des géométries
+          title: Chapitre 8 - Projections et systèmes de coordonnées, manipulation des géométries
 - caption: Partie 2 - Méthodes quantitatives
   numbered: true
   chapters:
