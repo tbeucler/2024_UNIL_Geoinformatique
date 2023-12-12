@@ -33,14 +33,31 @@ parts:
         - file: IP/S1_IP.ipynb
           title: Chapitre 1 - Introduction et bases de la programmation
           sections:
+            - file: IP/S1_IP_tutoriel.ipynb
+              title: Tutorel 1
             - file: IP/S1_IP_exercice.ipynb
-              title:  Exercice semaine 1
+              title:  Exercice 1
         - file: IP/S2_IP.ipynb
           title: Chapitre 2 - Structures de contrôle
+          sections:
+            - file: IP/S2_IP_tutoriel.ipynb
+              title: Tutorel 2
+            - file: IP/S2_IP_exercice.ipynb
+              title:  Exercice 2
         - file: IP/S3_IP.ipynb
           title: Chapitre 3 - Structures de données
+          sections:
+            - file: IP/S3_IP_tutoriel.ipynb
+              title: Tutorel 3
+            - file: IP/S3_IP_exercice.ipynb
+              title:  Exercice 3
         - file: IP/S4_IP.ipynb
           title: Chapitre 4 - Fonctions
+          sections:
+            - file:  IP/S4_IP_tutoriel.ipynb
+              title: Tutorel 4
+            - file: IP/S4_IP_exercice.ipynb
+              title:  Exercice 4
         - file: IP/S5_IP.ipynb
           title: Chapitre 5 - Gestion des fichiers, exceptions et tests
         - file: IP/S6_IP.ipynb
