@@ -7,68 +7,146 @@ parts:
 - caption: Introduction générale
   numbered: false
   chapters:
-    - file: intro_geoinformatique.ipynb
-      title: Liste des cours de Géoinformatique
-- caption: Partie 1 - Cartographie et géoinformatique
+    - file: intro_ebook.ipynb
+      title: Liste des cours communs en FGSE (Bachelor)
+- caption: Partie 1 - géoinformatique I
   numbered: true
   chapters:
-    - file: Carto/intro_carto.ipynb
+    - file: Geoinformatique_I/Carto/Intro_Carto/intro_carto.ipynb
       title: Cartographie
       sections:
-        - file: Carto/S1_carto.ipynb
+        - file: Geoinformatique_I/Carto/Intro_Carto/S1_carto.ipynb
           title: Chapitre 1 - Cadre général
-        - file: Carto/S2_carto.ipynb
+          sections:
+            - file: Geoinformatique_I/Carto/Tutoriel_IP/S1_Carto_tutoriel.ipynb
+              title: Tutorel 1
+            - file: Geoinformatique_I/Carto/Exercices_Carto/S1_Carto_exercice.ipynb
+              title: Exercice 1
+        - file: Geoinformatique_I/Carto/Intro_Carto/S2_carto.ipynb
           title: Chapitre 2 - Modélisation du territoire, généralisation
-        - file: Carto/S3_carto.ipynb
+          sections:
+            - file: Geoinformatique_I/Carto/Tutoriel_IP/S2_Carto_tutoriel.ipynb
+              title: Tutorel 2
+            - file: Geoinformatique_I/Carto/Exercices_Carto/S2_Carto_exercice.ipynb
+              title: Exercice 2
+        - file: Geoinformatique_I/Carto/Intro_Carto/S3_carto.ipynb
           title: Chapitre 3 - Types de cartes, sémiologie graphique, règles de représentation
-        - file: Carto/S4_carto.ipynb
+          sections:
+            - file: Geoinformatique_I/Carto/Tutoriel_IP/S3_Carto_tutoriel.ipynb
+              title: Tutorel 3
+            - file: Geoinformatique_I/Carto/Exercices_Carto/S3_Carto_exercice.ipynb
+              title: Exercice 3
+        - file: Geoinformatique_I/Carto/Intro_Carto/S4_carto.ipynb
           title: Chapitre 4 - Indicateurs et discrétisation
-        - file: Carto/S5_carto.ipynb
+          sections:
+            - file: Geoinformatique_I/Carto/Tutoriel_IP/S4_Carto_tutoriel.ipynb
+              title: Tutorel 4
+            - file: Geoinformatique_I/Carto/Exercices_Carto/S4_Carto_exercice.ipynb
+              title: Exercice 4
+        - file: Geoinformatique_I/Carto/Intro_Carto/S5_carto.ipynb
           title: Chapitre 5 - Habillage des cartes
-        - file: Carto/S6_carto.ipynb
+          sections:
+            - file: Geoinformatique_I/Carto/Tutoriel_IP/S5_Carto_tutoriel.ipynb
+              title: Tutorel 5
+            - file: Geoinformatique_I/Carto/Exercices_Carto/S5_Carto_exercice.ipynb
+              title: Exercice 5
+        - file: Geoinformatique_I/Carto/Intro_Carto/S6_carto.ipynb
           title: Chapitre 6 - Principe de base des SIG
-    - file: IP/intro_python.ipynb
+          sections:
+            - file: Geoinformatique_I/Carto/Tutoriel_IP/S6_Carto_tutoriel.ipynb
+              title: Tutorel 6
+            - file: Geoinformatique_I/Carto/Exercices_Carto/S6_Carto_exercice.ipynb
+              title: Exercice 6
+    - file: Geoinformatique_I/IP/Intro_IP/intro_python.ipynb
       title: Programmation Python
       sections:
-        - file: IP/S1_IP.ipynb
+        - file: Geoinformatique_I/IP/Intro_IP/S1_IP.ipynb
           title: Chapitre 1 - Introduction et bases de la programmation
           sections:
-            - file: IP/S1_IP_tutoriel.ipynb
+            - file: Geoinformatique_I/IP/Tutoriel_IP/S1_IP_tutoriel.ipynb
               title: Tutorel 1
-            - file: IP/S1_IP_exercice.ipynb
-              title:  Exercice 1
-        - file: IP/S2_IP.ipynb
+            - file: Geoinformatique_I/IP/Exercices_IP/S1_IP_exercice.ipynb
+              title: Exercice 1
+        - file: Geoinformatique_I/IP/Intro_IP/S2_IP.ipynb
           title: Chapitre 2 - Structures de contrôle
           sections:
-            - file: IP/S2_IP_tutoriel.ipynb
+            - file: Geoinformatique_I/IP/Tutoriel_IP/S2_IP_tutoriel.ipynb
               title: Tutorel 2
-            - file: IP/S2_IP_exercice.ipynb
-              title:  Exercice 2
-        - file: IP/S3_IP.ipynb
+            - file: Geoinformatique_I/IP/Exercices_IP/S2_IP_exercice.ipynb
+              title: Exercice 2
+        - file: Geoinformatique_I/IP/Intro_IP/S3_IP.ipynb
           title: Chapitre 3 - Structures de données
           sections:
-            - file: IP/S3_IP_tutoriel.ipynb
+            - file: Geoinformatique_I/IP/Tutoriel_IP/S3_IP_tutoriel.ipynb
               title: Tutorel 3
-            - file: IP/S3_IP_exercice.ipynb
-              title:  Exercice 3
-        - file: IP/S4_IP.ipynb
-          title: Chapitre 4 - Fonctions
+            - file: Geoinformatique_I/IP/Exercices_IP/S3_IP_exercice.ipynb
+              title: Exercice 3
+        - file: Geoinformatique_I/IP/Intro_IP/S4_IP.ipynb
+          title: Chapitre 4 - Fonctions et calculs scientifiques
           sections:
-            - file:  IP/S4_IP_tutoriel.ipynb
+            - file: Geoinformatique_I/IP/Tutoriel_IP/S4_IP_tutoriel.ipynb
               title: Tutorel 4
-            - file: IP/S4_IP_exercice.ipynb
-              title:  Exercice 4
-        - file: IP/S5_IP.ipynb
-          title: Chapitre 5 - Gestion des fichiers, exceptions et tests
-        - file: IP/S6_IP.ipynb
-          title: Chapitre 6 - Classes et objets
-    - file: SIG/intro_SIG.ipynb
+            - file: Geoinformatique_I/IP/Exercices_IP/S4_IP_exercice.ipynb
+              title: Exercice 4
+        - file: Geoinformatique_I/IP/Intro_IP/S5_IP.ipynb
+          title: Chapitre 5 - Clases & objets et Meilleurs pratiques de programmation
+          sections:
+            - file:  Geoinformatique_I/IP/Tutoriel_IP/S5_IP_tutoriel.ipynb
+              title: Tutorel 5
+            - file: Geoinformatique_I/IP/Exercices_IP/S5_IP_exercice.ipynb
+              title: Exercice 5
+        - file: Geoinformatique_I/IP/Intro_IP/S6_IP.ipynb
+          title: Chapitre 6 - Données tabulaires
+          sections:
+            - file:  Geoinformatique_I/IP/Tutoriel_IP/S6_IP_tutoriel.ipynb
+              title: Tutorel 6
+            - file: Geoinformatique_I/IP/Exercices_IP/S6_IP_exercice.ipynb
+              title: Exercice 6          
+    - file: Geoinformatique_I/SIG/Intro_SIG/intro_SIG.ipynb
       title: Géoinformatique
       sections:
-        - file: SIG/S7_SIG.ipynb
-          title: Chapitre 7 - Gestion des données SIG
-        - file: SIG/S8_SIG.ipynb
-          title: Chapitre 8 - Projections et systèmes de coordonnées, manipulation des géométries
+        - file: Geoinformatique_I/SIG/Intro_SIG/S7_SIG.ipynb
+          title: Chapitre 7 - Introduction SIG & Projections
+          sections:
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S7_SIG_tutoriel.ipynb
+              title: Tutorel 7
+            - file: Geoinformatique_I/SIG/Exercices_SIG/S7_SIG_exercice.ipynb
+              title:  Exercice 7            
+        - file: Geoinformatique_I/SIG/Intro_SIG/S8_SIG.ipynb
+          title: Chapitre 8 - Données spatiales
+          sections:
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S8_SIG_tutoriel.ipynb
+              title: Tutorel 8
+            - file: Geoinformatique_I/SIG/Exercices_SIG/S8_SIG_exercice.ipynb
+              title: Exercice 8 
+        - file: Geoinformatique_I/SIG/Intro_SIG/S9_SIG.ipynb
+          title: Chapitre 9 - Géotraitement
+          sections:
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S9_SIG_tutoriel.ipynb
+              title: Tutorel 9
+            - file: Geoinformatique_I/SIG/Exercices_SIG/S9_SIG_exercice.ipynb
+              title: Exercice 9 
+        - file: Geoinformatique_I/SIG/Intro_SIG/S10_SIG.ipynb
+          title: Chapitre 10 - Visualisation & AI-assisted programming
+          sections:
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S10_SIG_tutoriel.ipynb
+              title: Tutorel 10
+            - file: Geoinformatique_I/SIG/Exercices_SIG/S10_SIG_exercice.ipynb
+              title: Exercice 10 
+        - file: Geoinformatique_I/SIG/Intro_SIG/S11_SIG.ipynb
+          title: Chapitre 11 - Analyse spatiale 1 - analyses de surface, analyse multicritère, traitements raster
+          sections:
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S11_SIG_tutoriel.ipynb
+              title: Tutorel 11
+            - file: Geoinformatique_I/SIG/Exercices_SIG/S11_SIG_exercice.ipynb
+              title: Exercice 11
+        - file: Geoinformatique_I/SIG/Intro_SIG/S12_SIG.ipynb
+          title: Chapitre 12 - Analyse spatiale 2 - analyses de concentration et de distance, interpolation spatiale
+          sections:
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S12_SIG_tutoriel.ipynb
+              title: Tutorel 12
+            - file: Geoinformatique_I/SIG/Exercices_SIG/S12_SIG_exercice.ipynb
+              title: Exercice 12
 - caption: Partie 2 - Méthodes quantitatives
   numbered: true
   chapters:
@@ -77,8 +155,59 @@ parts:
 - caption: Partie 3 - Modélisation numérique
   numbered: true
   chapters:
-    - file: Mod_Num/intro_Mod_Num.ipynb
+    - file: MN/Intro_MN/intro_MN.ipynb
       title: Introduction à la Modélisation Numérique
+      sections:
+        - file: MN/Intro_MN/S1_MN.ipynb
+          title: Chapitre 1 - Introduction à la odélisation numérique
+          sections:
+            - file: MN/Exercices_MN/S1_MN_exercice.ipynb
+              title: Exercice 1
+        - file: MN/Intro_MN/S2_MN.ipynb
+          title: Chapitre 2 - Discrétisation et boucle
+          sections:
+            - file: MN/Exercices_MN/S2_MN_exercice.ipynb
+              title: Exercice 2
+        - file: MN/Intro_MN/S3_MN.ipynb
+          title: Chapitre 3 - Nombre aléatoire
+          sections:
+            - file: MN/Exercices_MN/S3_MN_exercice.ipynb
+              title: Exercice 3
+        - file: MN/Intro_MN/S4_MN.ipynb
+          title: Chapitre 4 - Diffusion I
+          sections:
+            - file: MN/Exercices_MN/S4_MN_exercice.ipynb
+              title: Exercice 4
+        - file: MN/Intro_MN/S5_MN.ipynb
+          title: Chapitre 5 - Diffusion II
+          sections:
+            - file: MN/Exercices_MN/S5_MN_exercice.ipynb
+              title: Exercice 5
+        - file: MN/Intro_MN/S6_MN.ipynb
+          title: Chapitre 6 - Diffusion III
+          sections:
+            - file: MN/Exercices_MN/S6_MN_exercice.ipynb
+              title: Exercice 6
+        - file: MN/Intro_MN/S7_MN.ipynb
+          title: Chapitre 7 - Diffusion-advection I
+          sections:
+            - file: MN/Exercices_MN/S7_MN_exercice.ipynb
+              title: Exercice 7
+        - file: MN/Intro_MN/S8_MN.ipynb
+          title: Chapitre 8 - Diffusion-advection II
+          sections:
+            - file: MN/Exercices_MN/S8_MN_exercice.ipynb
+              title: Exercice 8
+        - file: MN/Intro_MN/S9_MN.ipynb
+          title: Chapitre 9 - Equation de la glace I
+          sections:
+            - file: MN/Exercices_MN/S9_MN_exercice.ipynb
+              title: Exercice 9
+        - file: MN/Intro_MN/S10_MN.ipynb
+          title: Chapitre 10 - Equation de la glace II
+          sections:
+            - file: MN/Exercices_MN/S10_MN_exercice.ipynb
+              title: Exercice 10
 - caption: Partie 4 - Analyse des données environnementales
   numbered: true
   chapters:
@@ -87,5 +216,5 @@ parts:
 - caption: Partie 5 - Géoinformatique Intégrée
   numbered: true
   chapters:
-    - file: Geoinf/intro_geoinf.ipynb
-      title: Introduction à la Géoinformatique Intégrée
+    - file: Geoinformatique_II/intro_geoinf.ipynb
+      title: Introduction à la Géoinformatique II
