@@ -1,6 +1,7 @@
 # UNIL Géoinformatique
 
-        Les cours de Bachelors en commun avec les 3 orientations                                    
+### Bienvenue dans le livre électronique regroupant le matériel de cours pour l'ensemble des cours communs de la FGSE.
+                                    
 ```{tableofcontents}
 ```
 

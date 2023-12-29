@@ -4,11 +4,6 @@
 format: jb-book
 root: index
 parts:
-- caption: Introduction générale
-  numbered: false
-  chapters:
-    - file: intro_ebook.ipynb
-      title: Liste des cours communs en FGSE (Bachelor)
 - caption: Partie 1 - géoinformatique I
   numbered: true
   chapters:
