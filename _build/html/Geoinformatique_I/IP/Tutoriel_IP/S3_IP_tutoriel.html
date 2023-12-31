@@ -549,26 +549,27 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#serialisation-et-deserialisation-avec-pickle">2.3.2.3. Sérialisation et désérialisation avec Pickle</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus">2.3.3. <strong>Bonus</strong></a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#donnees-structurees-avec-json">2.3.3.1. Données structurées avec JSON</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convertir-python-obj-en-json">2.3.3.2. Convertir python_obj en JSON</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#donnees-quadrillees-a-n-dimensions-avec-netcdf4">2.3.3.3. Données quadrillées à N dimensions avec NetCDF4</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#voici-comment-vous-creez-et-stockez-normalement-des-donnees-dans-un-fichier-netcdf">2.3.3.3.1. <strong>Voici comment vous créez et stockez normalement des données dans un fichier netCDF:</strong></a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ouvrir-un-jeu-de-donnees-netcdf4">2.3.3.3.1.1. <strong>Ouvrir un jeu de données netCDF4</strong></a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#creation-de-dimensions-dans-un-fichier-netcdf-font">2.3.3.3.1.2. <strong>Création de dimensions dans un fichier netCDF</strong></a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ajouter-des-attributs-variables-font">2.3.3.3.1.3. <strong>Ajouter des attributs variables</strong></a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ecrire-des-donnees-dans-un-fichier">2.3.3.3.1.4. <strong>Écrire des données dans un fichier</strong></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">2.3.3. Lists</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-a-jour-de-la-liste">2.3.3.1. <strong>Mise à jour de la liste</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#utiliser-des-listes-en-boucle">2.3.3.2. <strong>Utiliser des listes en boucle</strong></a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#nous-allons-maintenant-lire-le-fichier-netcdf4-stocke-pour-voir-ce-que-nous-venons-de-faire">2.3.3.3.2. Nous allons maintenant lire le fichier netCDF4 stocké pour voir ce que nous venons de faire.</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">2.3.4. Tuples</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#sets">2.3.5. Sets</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#dictionnaires">2.3.6. Dictionnaires</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#fonctions-et-classes">2.3.7. <strong>Fonctions et classes</strong></a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fonctions">2.3.7.1. <strong>Fonctions</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fonctions-pures-et-fonctions-impures">2.3.7.1.1. <strong>Fonctions pures et fonctions impures</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#espace-de-noms">2.3.7.1.2. <strong>Espace de noms</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#classes">2.3.7.2. <strong>Classes</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#une-classe-pour-representer-un-ouragan">2.3.7.2.1. <strong>Une classe pour représenter un ouragan</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#methodes-magiques-dunder">2.3.7.2.2. <strong>Méthodes magiques / Dunder</strong></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#list">2.3.4. List</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">2.3.5. Tuples</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#sets">2.3.6. Sets</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#dictionnaires">2.3.7. Dictionnaires</a></li>
 </ul>
 
             </nav>
@@ -592,6 +593,11 @@ document.write(`
 <li><p>Sets</p></li>
 <li><p>Dictionnaires</p></li>
 </ol>
+<p>Références:</p>
+<ul class="simple">
+<li><p>IBM Congnitive Class - Intro to Python (<a class="github reference external" href="https://github.com/computationalcore/introduction-to-python">computationalcore/introduction-to-python</a>)</p></li>
+<li><p>CUSP UCSL bootcamp 2017 (<a class="github reference external" href="https://github.com/Mohitsharma44/ucsl17">Mohitsharma44/ucsl17</a>)</p></li>
+</ul>
 </section>
 <section id="file-i-o">
 <h1><span class="section-number">2.3.2. </span>File I/O<a class="headerlink" href="#file-i-o" title="Permalink to this heading">#</a></h1>
@@ -932,308 +938,857 @@ Dans le code ci-dessus, nous utilisons la méthode <code class="docutils literal
 </div>
 </section>
 </section>
-<section id="bonus">
-<h1><span class="section-number">2.3.3. </span><strong>Bonus</strong><a class="headerlink" href="#bonus" title="Permalink to this heading">#</a></h1>
-<p>Nous avons déjà abordé un grand nombre de sujets en une journée, mais votre professeur a également rédigé des instructions sur la lecture et l’écriture de données dans d’autres formats ! Le tutoriel suivant sera donc laissé à votre disposition pour que vous puissiez l’expérimenter chez vous.</p>
-<section id="donnees-structurees-avec-json">
-<h2><span class="section-number">2.3.3.1. </span>Données structurées avec JSON<a class="headerlink" href="#donnees-structurees-avec-json" title="Permalink to this heading">#</a></h2>
-<p>JSON est un format populaire pour les données structurées qui peut être utilisé dans Python et Perl, entre autres langages.
-Le format JSON est construit sur une collection de paires nom/valeur. Les informations sur le nom peuvent être un objet, un enregistrement, un dictionnaire, une table de hachage, une liste à clés ou un tableau associatif. La valeur associée au nom peut être un tableau, un vecteur, une liste ou une séquence.</p>
-<p>Nous pouvons utiliser le paquetage <code class="docutils literal notranslate"><span class="pre">json</span></code> pour les entrées-sorties. La syntaxe du paquet est très similaire à celle de <code class="docutils literal notranslate"><span class="pre">pickle</span></code> :</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">dump()</span></code> : écriture d’une chaîne encodée dans un fichier.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">load()</span></code> : Décodage lors de la lecture d’un fichier JSON.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">dumps()</span></code> : encodage en objets JSON</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">loads()</span></code> : Décode la chaîne JSON.</p></li>
-</ul>
-<p><strong>Exemple de données JSON</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="s2">&quot;stations&quot;</span> <span class="p">:</span> <span class="p">[</span>
-        <span class="p">{</span>
-            <span class="s2">&quot;acronyme&quot;</span> <span class="p">:</span> <span class="s2">&quot;BLD&quot;</span><span class="p">,</span>
-            <span class="s2">&quot;nom&quot;</span> <span class="p">:</span> <span class="s2">&quot;Boulder Colorado&quot;</span><span class="p">,</span>
-            <span class="s2">&quot;latitude&quot;</span> <span class="p">:</span> <span class="mf">40.00</span><span class="p">,</span>
-            <span class="s2">&quot;longitude&quot;</span> <span class="p">:</span> <span class="o">-</span><span class="mf">105.25</span>
-        <span class="p">},</span>
-        <span class="p">{</span>
-            <span class="s2">&quot;acronyme&quot;</span> <span class="p">:</span> <span class="s2">&quot;BHD&quot;</span><span class="p">,</span>
-            <span class="s2">&quot;name&quot;</span> <span class="p">:</span> <span class="s2">&quot;Baring Head Wellington New Zealand&quot;</span><span class="p">,</span>
-            <span class="s2">&quot;latitude&quot;</span> <span class="p">:</span> <span class="o">-</span><span class="mf">41.28</span><span class="p">,</span>
-            <span class="s2">&quot;longitude&quot;</span> <span class="p">:</span> <span class="mf">174.87</span>
-        <span class="p">}</span>
-    <span class="p">]</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-<p>Essayons de lire ce cadre de données JSON avec <code class="docutils literal notranslate"><span class="pre">json</span></code> !</p>
+<section id="lists">
+<h1><span class="section-number">2.3.3. </span>Lists<a class="headerlink" href="#lists" title="Permalink to this heading">#</a></h1>
+<p>La création de listes est très facile en Python. Nous pouvons créer des listes en séparant les différents éléments par des virgules entre crochets:<code class="docutils literal notranslate"><span class="pre">[Item1,Item2,Item3]</span></code>.
+<code class="docutils literal notranslate"><span class="pre">[Élément1,Élément2,Élément3]</span></code></p>
+<p>Il existe de nombreuses façons d’interagir avec les listes. Les explorer fait partie du plaisir de Python.</p>
+<p><strong>list.append(x)</strong> Ajoute un élément à la fin de la liste. Equivalent à <code class="docutils literal notranslate"><span class="pre">a[len(a)</span> <span class="pre">:]</span> <span class="pre">=</span> <span class="pre">[x]</span></code>.</p>
+<p><strong>list.extend(L)</strong> Étendre la liste en y ajoutant tous les éléments de la liste donnée. Equivalent à <code class="docutils literal notranslate"><span class="pre">a[len(a)</span> <span class="pre">:]</span> <span class="pre">=</span> <span class="pre">L</span></code>.</p>
+<p><strong>list.insert(i, x)</strong> Insère un élément à une position donnée. Le premier argument est
+l’indice de l’élément avant lequel insérer, donc <code class="docutils literal notranslate"><span class="pre">a.insert(0,</span> <span class="pre">x)</span></code> insère en début de liste, et <code class="docutils literal notranslate"><span class="pre">a.insert(0,</span> <span class="pre">x)</span></code> insère en fin de liste.
+au début de la liste, et <code class="docutils literal notranslate"><span class="pre">a.insert(len(a),</span> <span class="pre">x)</span></code> est équivalent à
+<code class="docutils literal notranslate"><span class="pre">a.append(x)</span></code>.</p>
+<p><strong>list.remove(x)</strong> Supprime le premier élément de la liste dont la valeur est x. C’est une erreur s’il n’y a pas d’élément de ce type.</p>
+<p><strong>list.pop([i])</strong> Enlève l’élément à la position donnée dans la liste et le renvoie.
+Si aucun index n’est spécifié, <code class="docutils literal notranslate"><span class="pre">a.pop()</span></code> supprime et renvoie le dernier élément de la liste.
+(Les crochets autour du i dans la signature de la méthode indiquent que le paramètre est optionnel, et non pas que vous devez le retourner).
+est optionnel, et non pas que vous devez taper des crochets à cette position.
+à cette position. Vous verrez souvent cette notation dans la référence de la bibliothèque Python).</p>
+<p><strong>list.clear()</strong> Supprime tous les éléments de la liste. Equivalent à <code class="docutils literal notranslate"><span class="pre">del</span> <span class="pre">a[</span> <span class="pre">:]</span></code>.</p>
+<p><strong>list.index(x)</strong> Retourne l’index dans la liste du premier élément dont la valeur est x.
+C’est une erreur s’il n’y a pas d’élément de ce type.</p>
+<p><strong>list.count(x)</strong> Retourne le nombre de fois que x apparaît dans la liste.</p>
+<p><strong>list.sort()</strong> Trie les éléments de la liste à la place.</p>
+<p><strong>list.reverse()</strong> Inverse les éléments de la liste en place.</p>
+<p><strong>list.copy()</strong> Retourne une copie superficielle de la liste. Equivalent à <code class="docutils literal notranslate"><span class="pre">a[</span> <span class="pre">:]</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
-<span class="n">json_data</span> <span class="o">=</span> <span class="s1">&#39;{&quot;stations&quot;: [{&quot;acronym&quot;: &quot;BLD&quot;, </span><span class="se">\</span>
-<span class="s1">                                &quot;nom&quot;: &quot;Boulder Colorado&quot;, </span><span class="se">\</span>
-<span class="s1">                            &quot;latitude&quot;: 40.00, </span><span class="se">\</span>
-<span class="s1">                            &quot;longitude&quot;: -105.25}, </span><span class="se">\</span>
-<span class="s1">                            {&quot;acronym&quot;: &quot;BHD&quot;, </span><span class="se">\</span>
-<span class="s1">                             &quot;nom&quot;: &quot;Baring Head Wellington New Zealand&quot;,</span><span class="se">\</span>
-<span class="s1">                             &quot;latitude&quot;: -41.28, </span><span class="se">\</span>
-<span class="s1">                             &quot;longitude&quot;: 174.87}]}&#39;</span>
-
-<span class="n">python_obj</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">json_data</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">python_obj</span><span class="p">[</span><span class="s1">&#39;stations&#39;</span><span class="p">]:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s2">&quot;nom&quot;</span><span class="p">])</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Expérimentons quelques-unes de ces méthodes !</span>
+<span class="c1"># 1. Créer d&#39;abord une liste</span>
+<span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;chien&#39;</span><span class="p">,</span> <span class="s1">&#39;chat&#39;</span><span class="p">,</span> <span class="s1">&#39;poisson&#39;</span><span class="p">,</span> <span class="s1">&#39;poulet&#39;</span><span class="p">,</span> <span class="s1">&#39;oeufs&#39;</span><span class="p">,</span> <span class="s1">&#39;canard&#39;</span><span class="p">]</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Boulder Colorado
-Baring Head Wellington New Zealand
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="convertir-python-obj-en-json">
-<h2><span class="section-number">2.3.3.2. </span>Convertir python_obj en JSON<a class="headerlink" href="#convertir-python-obj-en-json" title="Permalink to this heading">#</a></h2>
-<p>print(json.dumps(python_obj, sort_keys=True, indent=4))</p>
-<p>Nous allons maintenant essayer de convertir un objet python en JSON et de l’écrire dans un fichier.
-La syntaxe pour la sérialisation et la désérialisation dans le paquet <code class="docutils literal notranslate"><span class="pre">json</span></code> est presque la même que celle de <code class="docutils literal notranslate"><span class="pre">pickle</span></code></p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Convertir les objets python en JSON</span>
-<span class="n">x</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="s2">&quot;prénom&quot;</span> <span class="p">:</span> <span class="s2">&quot;John&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;âge&quot;</span> <span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
-  <span class="s2">&quot;marié&quot;</span> <span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
-  <span class="s2">&quot;divorcé&quot;</span> <span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
-  <span class="s2">&quot;enfants&quot;</span> <span class="p">:</span> <span class="p">(</span><span class="s2">&quot;Ann&quot;</span><span class="p">,</span> <span class="s2">&quot;Billy&quot;</span><span class="p">),</span>
-  <span class="s2">&quot;animaux&quot;</span> <span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
-  <span class="s2">&quot;voitures&quot;</span> <span class="p">:</span> <span class="p">[</span>
-    <span class="p">{</span><span class="s2">&quot;modèle&quot;</span> <span class="p">:</span> <span class="s2">&quot;BMW 230&quot;</span><span class="p">,</span> <span class="s2">&quot;mpg&quot;</span> <span class="p">:</span> <span class="mf">27.5</span><span class="p">},</span>
-    <span class="p">{</span><span class="s2">&quot;Modèle&quot;</span> <span class="p">:</span> <span class="s2">&quot;Ford Edge&quot;</span><span class="p">,</span> <span class="s2">&quot;mpg&quot;</span> <span class="p">:</span> <span class="mf">24.1</span><span class="p">}</span>
-  <span class="p">]</span>
-<span class="p">}</span>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>list
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Sérialisation</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./pythonobj.json&#39;</span><span class="p">,</span><span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">sid</span> <span class="p">:</span>
-  <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">sid</span><span class="p">)</span>
-<span class="c1"># Désérialisation</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./pythonobj.json&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">sid</span> <span class="p">:</span>
-  <span class="n">z</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">sid</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Découpage de la liste</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">l</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">l</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">l</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">],</span><span class="n">l</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;prénom&#39;: &#39;John&#39;, &#39;âge&#39;: 30, &#39;marié&#39;: True, &#39;divorcé&#39;: False, &#39;enfants&#39;: [&#39;Ann&#39;, &#39;Billy&#39;], &#39;animaux&#39;: None, &#39;voitures&#39;: [{&#39;modèle&#39;: &#39;BMW 230&#39;, &#39;mpg&#39;: 27.5}, {&#39;Modèle&#39;: &#39;Ford Edge&#39;, &#39;mpg&#39;: 24.1}]}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>chien canard [&#39;chien&#39;, &#39;chat&#39;, &#39;poisson&#39;] [&#39;poulet&#39;, &#39;oeufs&#39;]
 </pre></div>
 </div>
 </div>
 </div>
-</section>
-<section id="donnees-quadrillees-a-n-dimensions-avec-netcdf4">
-<h2><span class="section-number">2.3.3.3. </span>Données quadrillées à N dimensions avec NetCDF4<a class="headerlink" href="#donnees-quadrillees-a-n-dimensions-avec-netcdf4" title="Permalink to this heading">#</a></h2>
-<p>Les jeux de données géoscientifiques contiennent souvent plusieurs dimensions. Par exemple, les résultats des modèles climatiques contiennent généralement 4 dimensions : le temps (t), le niveau vertical (z), la longitude (lon) et la latitude (lat). Ces données sont trop complexes pour être stockées dans des tableaux.</p>
-<p>Développé par <em>Unidata</em> (une filiale de UCAR), le format NetCDF contient une structure hiérarchique qui permet une meilleure organisation et un meilleur stockage de grands ensembles de données multidimensionnelles, d’informations sur les axes et d’autres métadonnées. Il est bien adapté à la gestion de grands ensembles de données numériques, car il permet aux utilisateurs d’accéder à des parties d’un ensemble de données sans avoir à le charger entièrement en mémoire.</p>
-<p>Nous pouvons utiliser le paquetage <code class="docutils literal notranslate"><span class="pre">netCDF4</span></code> pour créer, lire et stocker des données dans NetCDF4. Un autre paquetage, <code class="docutils literal notranslate"><span class="pre">xarray</span></code>, est également disponible pour ce format de données.</p>
-<section id="voici-comment-vous-creez-et-stockez-normalement-des-donnees-dans-un-fichier-netcdf">
-<h3><span class="section-number">2.3.3.3.1. </span><strong>Voici comment vous créez et stockez normalement des données dans un fichier netCDF:</strong><a class="headerlink" href="#voici-comment-vous-creez-et-stockez-normalement-des-donnees-dans-un-fichier-netcdf" title="Permalink to this heading">#</a></h3>
-<ol class="arabic simple">
-<li><p>Ouvrez/créez un jeu de données netCDF.</p></li>
-<li><p>Définissez les dimensions des données.</p></li>
-<li><p>Construire des variables netCDF en utilisant les dimensions définies.</p></li>
-<li><p>Transférer les données dans les variables netCDF.</p></li>
-<li><p>Ajouter des attributs aux variables et à l’ensemble de données (facultatif mais recommandé).</p></li>
-<li><p>Fermez le jeu de données netCDF.</p></li>
-</ol>
-<section id="ouvrir-un-jeu-de-donnees-netcdf4">
-<h4><span class="section-number">2.3.3.3.1.1. </span><strong>Ouvrir un jeu de données netCDF4</strong><a class="headerlink" href="#ouvrir-un-jeu-de-donnees-netcdf4" title="Permalink to this heading">#</a></h4>
+<p><strong>Pensez à mémoriser cette syntaxe !</strong>
+Elle est au cœur de Python et s’avère souvent déroutante pour les utilisateurs qui viennent d’autres langages.</p>
+<section id="mise-a-jour-de-la-liste">
+<h2><span class="section-number">2.3.3.1. </span><strong>Mise à jour de la liste</strong><a class="headerlink" href="#mise-a-jour-de-la-liste" title="Permalink to this heading">#</a></h2>
+<p>Contrairement aux chaînes et aux tuples, les listes sont mutables. Vous pouvez mettre à jour la liste et modifier les éléments quand vous le souhaitez.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ncfid</span> <span class="o">=</span> <span class="n">netCDF4</span><span class="o">.</span><span class="n">Dataset</span><span class="p">(</span><span class="s1">&#39;sample_netcdf.nc&#39;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;NETCDF4&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p><code class="docutils literal notranslate"><span class="pre">modeType</span></code> a les options suivantes :</p>
-<ul class="simple">
-<li><p>‘w’ : pour créer un nouveau fichier</p></li>
-<li><p>‘r+’ : pour lire et écrire dans un fichier existant</p></li>
-<li><p>‘r’ : pour lire (uniquement) un fichier existant</p></li>
-<li><p>‘a’ : pour ajouter un fichier à un fichier existant</p></li>
-</ul>
-<p><code class="docutils literal notranslate"><span class="pre">fileFormat</span></code> a les options suivantes :</p>
-<ul class="simple">
-<li><p>‘NETCDF3_CLASSIC’ : Format netCDF original</p></li>
-<li><p>‘NETCDF3_64BIT_OFFSET’ : Utilisé pour alléger les restrictions de taille des fichiers netCDF classiques.</p></li>
-<li><p>‘NETCDF4_CLASSIC’</p></li>
-<li><p>‘NETCDF4’ : Offre de nouvelles fonctionnalités telles que les groupes, les types composés, les tableaux de longueur variable, les nouveaux types d’entiers non signés, l’accès parallèle aux E/S, etc.</p></li>
-<li><p>‘NETCDF3_64BIT_DATA’</p></li>
-</ul>
-</section>
-<section id="creation-de-dimensions-dans-un-fichier-netcdf-font">
-<h4><span class="section-number">2.3.3.3.1.2. </span><strong>Création de dimensions dans un fichier netCDF</font></strong><a class="headerlink" href="#creation-de-dimensions-dans-un-fichier-netcdf-font" title="Permalink to this heading">#</a></h4>
-<ul class="simple">
-<li><p>Déclarez les dimensions avec <code class="docutils literal notranslate"><span class="pre">.createDimension(size)</span></code></p></li>
-<li><p>Pour des dimensions illimitées, utilisez <code class="docutils literal notranslate"><span class="pre">None</span></code> ou <code class="docutils literal notranslate"><span class="pre">0</span></code> comme taille.</p></li>
-<li><p>Les dimensions de taille illimitée doivent être déclarées avant (“à gauche de”) les autres dimensions.</p></li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Définir les dimensions des données</span>
-<span class="n">time</span> <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">createDimension</span><span class="p">(</span><span class="s1">&#39;time&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
-<span class="n">lev</span> <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">createDimension</span><span class="p">(</span><span class="s1">&#39;lev&#39;</span><span class="p">,</span> <span class="mi">72</span><span class="p">)</span>
-<span class="n">lat</span> <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">createDimension</span><span class="p">(</span><span class="s1">&#39;lat&#39;</span><span class="p">,</span> <span class="mi">91</span><span class="p">)</span>
-<span class="n">lon</span> <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">createDimension</span><span class="p">(</span><span class="s1">&#39;lon&#39;</span><span class="p">,</span> <span class="mi">144</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">##########################################################################################</span>
-<span class="c1"># Créer des variables de dimension et des variables de données pré-remplies avec fill_value</span>
-<span class="c1">##########################################################################################</span>
-<span class="c1"># Variables de dimension</span>
-<span class="n">times</span> <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">createVariable</span><span class="p">(</span><span class="s1">&#39;time&#39;</span><span class="p">,</span><span class="s1">&#39;f8&#39;</span><span class="p">,(</span><span class="s1">&#39;time&#39;</span><span class="p">,))</span>
-<span class="n">levels</span> <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">createVariable</span><span class="p">(</span><span class="s1">&#39;lev&#39;</span><span class="p">,</span><span class="s1">&#39;i4&#39;</span><span class="p">,(</span><span class="s1">&#39;lev&#39;</span><span class="p">,))</span>
-<span class="n">latitudes</span> <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">createVariable</span><span class="p">(</span><span class="s1">&#39;lat&#39;</span><span class="p">,</span><span class="s1">&#39;f4&#39;</span><span class="p">,(</span><span class="s1">&#39;lat&#39;</span><span class="p">,))</span>
-<span class="n">longitudes</span> <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">createVariable</span><span class="p">(</span><span class="s1">&#39;lon&#39;</span><span class="p">,</span><span class="s1">&#39;f4&#39;</span><span class="p">,(</span><span class="s1">&#39;lon&#39;</span><span class="p">,))</span>
-<span class="c1"># Variable de données pré-remplie</span>
-<span class="n">temp</span> <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">createVariable</span><span class="p">(</span><span class="s1">&#39;temp&#39;</span><span class="p">,</span><span class="s1">&#39;f4&#39;</span><span class="p">,</span>
-                            <span class="p">(</span><span class="s1">&#39;time&#39;</span><span class="p">,</span> <span class="s1">&#39;lev&#39;</span><span class="p">,</span> <span class="s1">&#39;lat&#39;</span><span class="p">,</span> <span class="s1">&#39;lon&#39;</span><span class="p">,),</span>
-                            <span class="n">fill_value</span><span class="o">=</span><span class="mf">1.0e15</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="ajouter-des-attributs-variables-font">
-<h4><span class="section-number">2.3.3.3.1.3. </span><strong>Ajouter des attributs variables</font></strong><a class="headerlink" href="#ajouter-des-attributs-variables-font" title="Permalink to this heading">#</a></h4>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">datetime</span>
-<span class="n">latitudes</span><span class="o">.</span><span class="n">long_name</span> <span class="o">=</span> <span class="s1">&#39;latitude&#39;</span>
-<span class="n">latitudes</span><span class="o">.</span><span class="n">units</span> <span class="o">=</span> <span class="s1">&#39;degrés nord&#39;</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;chien&#39;</span><span class="p">,</span> <span class="s1">&#39;chat&#39;</span><span class="p">,</span> <span class="s1">&#39;poisson&#39;</span><span class="p">,</span> <span class="s1">&#39;poulet&#39;</span><span class="p">,</span> <span class="s1">&#39;œufs&#39;</span><span class="p">,</span> <span class="s1">&#39;canard&#39;</span><span class="p">]</span>
+<span class="n">my_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Arbre&#39;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Contenu original : </span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">my_list</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Longueur originale du tableau : </span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">))</span>
 
-<span class="n">longitudes</span><span class="o">.</span><span class="n">nom_long</span> <span class="o">=</span> <span class="s1">&#39;longitude&#39;</span>
-<span class="n">longitudes</span><span class="o">.</span><span class="n">units</span> <span class="o">=</span> <span class="s1">&#39;degrés est&#39;</span>
+<span class="c1"># Enlever quelques éléments/changer la taille</span>
+<span class="n">my_list</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Contenu modifié : </span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">my_list</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Longueur modifiée du tableau : </span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Contenu original : 
+ [&#39;chien&#39;, &#39;chat&#39;, &#39;Arbre&#39;, &#39;poulet&#39;, &#39;œufs&#39;, &#39;canard&#39;]
+Longueur originale du tableau : 
+ 6
+Contenu modifié : 
+ [&#39;chien&#39;, &#39;chat&#39;, &#39;œufs&#39;, &#39;canard&#39;]
+Longueur modifiée du tableau : 
+ 4
+</pre></div>
+</div>
+</div>
+</div>
+<p>Modifions la liste à l’aide des méthodes spécifiques aux listes dont nous avons parlé précédemment.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Ajouter de nouveaux éléments à la liste**</span>
+<span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;chien&#39;</span><span class="p">,</span> <span class="s1">&#39;chat&#39;</span><span class="p">,</span> <span class="s1">&#39;poisson&#39;</span><span class="p">,</span> <span class="s1">&#39;poulet&#39;</span><span class="p">,</span> <span class="s1">&#39;oeufs&#39;</span><span class="p">,</span> <span class="s1">&#39;canard&#39;</span><span class="p">]</span>
+<span class="n">my_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Python&#39;</span><span class="p">)</span> <span class="c1"># Cela ajoutera l&#39;élément à la fin de la liste</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+<span class="n">my_list</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;Julia&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;chien&#39;, &#39;chat&#39;, &#39;poisson&#39;, &#39;poulet&#39;, &#39;oeufs&#39;, &#39;canard&#39;, &#39;Python&#39;]
+[&#39;Julia&#39;, &#39;chien&#39;, &#39;chat&#39;, &#39;poisson&#39;, &#39;poulet&#39;, &#39;oeufs&#39;, &#39;canard&#39;, &#39;Python&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Supprimez des éléments de la liste**</span>
+<span class="n">my_list</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+<span class="k">del</span><span class="p">(</span><span class="n">my_list</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;chien&#39;, &#39;chat&#39;, &#39;poisson&#39;, &#39;poulet&#39;, &#39;oeufs&#39;, &#39;canard&#39;, &#39;Python&#39;]
+[&#39;chien&#39;, &#39;chat&#39;, &#39;poisson&#39;, &#39;poulet&#39;, &#39;oeufs&#39;, &#39;canard&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Compte, Index**</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;poisson&#39;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;canard&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1
+5
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Tri, Inversion**</span>
+<span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;chien&#39;</span><span class="p">,</span> <span class="s1">&#39;chat&#39;</span><span class="p">,</span> <span class="s1">&#39;poisson&#39;</span><span class="p">,</span> <span class="s1">&#39;poulet&#39;</span><span class="p">,</span> <span class="s1">&#39;oeufs&#39;</span><span class="p">,</span> <span class="s1">&#39;canard&#39;</span><span class="p">]</span>
+<span class="n">my_list</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+<span class="n">my_list</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+<span class="n">my_list</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;canard&#39;, &#39;oeufs&#39;, &#39;poulet&#39;, &#39;poisson&#39;, &#39;chat&#39;, &#39;chien&#39;]
+[&#39;canard&#39;, &#39;chat&#39;, &#39;chien&#39;, &#39;oeufs&#39;, &#39;poisson&#39;, &#39;poulet&#39;]
+[&#39;poulet&#39;, &#39;poisson&#39;, &#39;oeufs&#39;, &#39;chien&#39;, &#39;chat&#39;, &#39;canard&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Concaténation de listes**</span>
+<span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;chien&#39;</span><span class="p">,</span> <span class="s1">&#39;chat&#39;</span><span class="p">,</span> <span class="s1">&#39;poisson&#39;</span><span class="p">,</span> <span class="s1">&#39;poulet&#39;</span><span class="p">,</span> <span class="s1">&#39;oeufs&#39;</span><span class="p">,</span> <span class="s1">&#39;canard&#39;</span><span class="p">]</span>
+<span class="n">my_list2</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Python&#39;</span><span class="p">,</span> <span class="s1">&#39;Julia&#39;</span><span class="p">,</span> <span class="s1">&#39;C++&#39;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="o">+</span><span class="n">my_list2</span><span class="p">)</span>
+<span class="n">my_list</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">my_list2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;chien&#39;, &#39;chat&#39;, &#39;poisson&#39;, &#39;poulet&#39;, &#39;oeufs&#39;, &#39;canard&#39;, &#39;Python&#39;, &#39;Julia&#39;, &#39;C++&#39;]
+[&#39;chien&#39;, &#39;chat&#39;, &#39;poisson&#39;, &#39;poulet&#39;, &#39;oeufs&#39;, &#39;canard&#39;, &#39;Python&#39;, &#39;Julia&#39;, &#39;C++&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="utiliser-des-listes-en-boucle">
+<h2><span class="section-number">2.3.3.2. </span><strong>Utiliser des listes en boucle</strong><a class="headerlink" href="#utiliser-des-listes-en-boucle" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">))</span> <span class="p">:</span> <span class="c1"># commence à 0 et va jusqu&#39;à la longueur de la liste.</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;my_list[</span><span class="si">{}</span><span class="s2">] : </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="n">my_list</span><span class="p">[</span><span class="n">index</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>ma_liste[0] : chien
+ma_liste[1] : chat
+ma_liste[2] : poisson
+ma_liste[3] : poulet
+ma_liste[4] : oeufs
+ma_liste[5] : canard
+ma_liste[6] : Python
+ma_liste[7] : Julia
+ma_liste[8] : C++
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nous pouvons en fait faire la même chose avec enumerate()</span>
+<span class="k">for</span> <span class="n">index</span><span class="p">,</span><span class="n">items</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span> <span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;my_list[</span><span class="si">{}</span><span class="s2">] : </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">index</span><span class="p">,</span><span class="n">items</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>my_list[0] : chien
+my_list[1] : chat
+my_list[2] : poisson
+my_list[3] : poulet
+my_list[4] : oeufs
+my_list[5] : canard
+my_list[6] : Python
+my_list[7] : Julia
+my_list[8] : C++
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Compréhension de liste</strong></p>
+<p>La compréhension de liste est un moyen syntaxique de créer une liste basée sur la liste existante, comme nous l’avons fait en copiant les listes ci-dessus. La structure de base de la syntaxe comprend une boucle for qui parcourt la liste et évalue une condition à l’aide de la condition if… else. Elle stocke ensuite la sortie de la condition dans une nouvelle liste. Voyons un exemple rapide :</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">my_list1</span> <span class="o">=</span> <span class="p">[</span><span class="n">elem</span> <span class="k">for</span> <span class="n">index</span><span class="p">,</span><span class="n">elem</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span> <span class="k">if</span> <span class="n">index</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_list1</span><span class="p">)</span>
 
-<span class="n">levels</span><span class="o">.</span><span class="n">long_name</span> <span class="o">=</span> <span class="s1">&#39;niveaux verticaux&#39;</span>
-<span class="n">levels</span><span class="o">.</span><span class="n">units</span> <span class="o">=</span> <span class="s1">&#39;hPa&#39;</span>
-<span class="n">levels</span><span class="o">.</span><span class="n">positive</span> <span class="o">=</span> <span class="s1">&#39;down&#39;</span>
-
-<span class="n">beg_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">month</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">day</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">times</span><span class="o">.</span><span class="n">long_name</span> <span class="o">=</span> <span class="s1">&#39;temps&#39;</span>
-<span class="n">times</span><span class="o">.</span><span class="n">units</span> <span class="o">=</span> <span class="n">beg_date</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;heures depuis %Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span>
-<span class="n">times</span><span class="o">.</span><span class="n">calendar</span> <span class="o">=</span> <span class="s1">&#39;gregorian&#39;</span>
-
-<span class="n">temp</span><span class="o">.</span><span class="n">long_name</span> <span class="o">=</span> <span class="s1">&#39;température&#39;</span>
-<span class="n">temp</span><span class="o">.</span><span class="n">units</span> <span class="o">=</span> <span class="s1">&#39;K&#39;</span>
-<span class="n">temp</span><span class="o">.</span><span class="n">nom_standard</span> <span class="o">=</span> <span class="s1">&#39;température_atmosphérique&#39;</span>
+<span class="n">carrés</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">carrés</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;chien&#39;, &#39;poisson&#39;, &#39;oeufs&#39;, &#39;Python&#39;, &#39;C++&#39;]
+[0, 1, 4, 9, 16]
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Traverser deux listes ensemble avec <code class="docutils literal notranslate"><span class="pre">zip()</span></code></strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># iterate over two lists together uzing zip</span>
+<span class="k">for</span> <span class="n">item1</span><span class="p">,</span> <span class="n">item2</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="s1">&#39;cochon&#39;</span><span class="p">,</span><span class="s1">&#39;canard&#39;</span><span class="p">,</span><span class="s1">&#39;papillon&#39;</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;first:&#39;</span><span class="p">,</span> <span class="n">item1</span><span class="p">,</span> <span class="s1">&#39;second:&#39;</span><span class="p">,</span> <span class="n">item2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>first: cochon second: 0
+first: canard second: 1
+first: papillon second: 2
 </pre></div>
 </div>
 </div>
 </div>
 </section>
-<section id="ecrire-des-donnees-dans-un-fichier">
-<h4><span class="section-number">2.3.3.3.1.4. </span><strong>Écrire des données dans un fichier</strong><a class="headerlink" href="#ecrire-des-donnees-dans-un-fichier" title="Permalink to this heading">#</a></h4>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">latitudes</span><span class="p">[</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">90</span><span class="p">,</span><span class="mi">91</span><span class="p">,</span><span class="mf">2.0</span><span class="p">)</span>
-<span class="n">longitudes</span><span class="p">[</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">180</span><span class="p">,</span><span class="mi">180</span><span class="p">,</span><span class="mf">2.5</span><span class="p">)</span>
-<span class="n">levels</span><span class="p">[</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">72</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
-
-<span class="n">out_frequency</span> <span class="o">=</span> <span class="mi">3</span> <span class="c1"># fréquence de sortie en heures</span>
-<span class="n">num_records</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">dates</span> <span class="o">=</span> <span class="p">[</span><span class="n">beg_date</span> <span class="o">+</span> <span class="n">n</span><span class="o">*</span><span class="n">datetime</span><span class="o">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="n">out_frequency</span><span class="p">)</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_records</span><span class="p">)]</span>
-<span class="n">times</span><span class="p">[</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">netCDF4</span><span class="o">.</span><span class="n">date2num</span><span class="p">(</span><span class="n">dates</span><span class="p">,</span> <span class="n">units</span><span class="o">=</span><span class="n">times</span><span class="o">.</span><span class="n">units</span><span class="p">,</span> <span class="n">calendar</span><span class="o">=</span><span class="n">times</span><span class="o">.</span><span class="n">calendar</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_records</span><span class="p">)</span> <span class="p">:</span>
-    <span class="n">temp</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="p">:,:,</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="n">levels</span><span class="o">.</span><span class="n">size</span><span class="p">,</span>
-                                            <span class="n">latitudes</span><span class="o">.</span><span class="n">size</span><span class="p">,</span>
-                                            <span class="n">longitudes</span><span class="o">.</span><span class="n">size</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ncfid</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section id="nous-allons-maintenant-lire-le-fichier-netcdf4-stocke-pour-voir-ce-que-nous-venons-de-faire">
-<h3><span class="section-number">2.3.3.3.2. </span>Nous allons maintenant lire le fichier netCDF4 stocké pour voir ce que nous venons de faire.<a class="headerlink" href="#nous-allons-maintenant-lire-le-fichier-netcdf4-stocke-pour-voir-ce-que-nous-venons-de-faire" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">databank</span> <span class="o">=</span> <span class="n">netCDF4</span><span class="o">.</span><span class="n">Dataset</span><span class="p">(</span><span class="s1">&#39;./sample_netcdf.nc&#39;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nous imprimons les noms des variables dans le fichier `sample_netcdf.nc`.</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">databank</span><span class="o">.</span><span class="n">variables</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nous pouvons lire les données comme suit</span>
-<span class="n">time</span>   <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">variables</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">][:]</span>
-<span class="n">lev</span>    <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">variables</span><span class="p">[</span><span class="s1">&#39;lev&#39;</span><span class="p">][:]</span>
-<span class="n">lat</span>    <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">variables</span><span class="p">[</span><span class="s1">&#39;lat&#39;</span><span class="p">][:]</span>
-<span class="n">lon</span>    <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">variables</span><span class="p">[</span><span class="s1">&#39;lon&#39;</span><span class="p">][:]</span>
-<span class="n">temp</span>   <span class="o">=</span> <span class="n">ncfid</span><span class="o">.</span><span class="n">variables</span><span class="p">[</span><span class="s1">&#39;temp&#39;</span><span class="p">][:]</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Lors de la lecture de données à partir d’un fichier :</p>
-<ul class="simple">
-<li><p>Si vous n’incluez pas <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">:]</span></code> à la fin de <code class="docutils literal notranslate"><span class="pre">variables[var_name]</span></code>, vous obtenez un objet variable.</p></li>
-<li><p>Si vous incluez <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">:]</span></code> (ou <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">:,:]</span></code>, <code class="docutils literal notranslate"><span class="pre">[0,</span> <span class="pre">i:j,</span> <span class="pre">:]</span></code>, etc.) à la fin de <code class="docutils literal notranslate"><span class="pre">variables[var_name]</span></code>, vous obtenez le tableau Numpy contenant les données.</p></li>
-</ul>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">lat</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-</section>
-</section>
-<section id="list">
-<h1><span class="section-number">2.3.4. </span>List<a class="headerlink" href="#list" title="Permalink to this heading">#</a></h1>
 </section>
 <section id="tuples">
-<h1><span class="section-number">2.3.5. </span>Tuples<a class="headerlink" href="#tuples" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">2.3.4. </span>Tuples<a class="headerlink" href="#tuples" title="Permalink to this heading">#</a></h1>
+<p>Les tuples sont similaires aux listes, mais ils sont <em>immuables</em>, c’est-à-dire qu’ils ne peuvent pas être étendus ou modifiés. Quel en est l’intérêt ? D’une manière générale, il s’agit de regrouper des données non homogènes. Les tuples peuvent ensuite être décompressés et distribués par d’autres parties de votre code.</p>
+<p>Les tuples peuvent sembler déroutants au début, mais avec le temps, vous finirez par les apprécier.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># les tuples sont créés avec des parenthèses, ou simplement des virgules</span>
+<span class="n">a</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;Ryan&#39;</span><span class="p">,</span> <span class="mi">33</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s1">&#39;Takaya&#39;</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="kc">False</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>tuple
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># peut être indexé comme un tableau</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># pas le premier élément !</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>33
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># et ils peuvent être décompressés</span>
+<span class="n">nom</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">statut</span> <span class="o">=</span> <span class="n">a</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">nom</span><span class="p">,</span><span class="n">age</span><span class="p">,</span><span class="n">statut</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Ryan 33 True
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;Ryan&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 <section id="sets">
-<h1><span class="section-number">2.3.6. </span>Sets<a class="headerlink" href="#sets" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">2.3.5. </span>Sets<a class="headerlink" href="#sets" title="Permalink to this heading">#</a></h1>
 </section>
 <section id="dictionnaires">
-<h1><span class="section-number">2.3.7. </span>Dictionnaires<a class="headerlink" href="#dictionnaires" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">2.3.6. </span>Dictionnaires<a class="headerlink" href="#dictionnaires" title="Permalink to this heading">#</a></h1>
+<p>Il s’agit d’une structure de données extrêmement utile. Elle associe des <strong>clés</strong> à des <strong>valeurs</strong>.</p>
+<p>Les dictionnaires ne sont pas ordonnés !</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Différentes façons de créer des dictionnaires**</span>
+<span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;nom&#39;</span> <span class="p">:</span> <span class="s1">&#39;Timothee&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span> <span class="p">:</span> <span class="mi">1</span><span class="p">}</span> <span class="c1"># Écrivez votre nom et votre âge ici</span>
+<span class="n">e</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">nom</span><span class="o">=</span><span class="s1">&#39;Timothee&#39;</span><span class="p">,</span> <span class="n">age</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># Inscrivez le nom et l&#39;âge de quelqu&#39;un d&#39;autre ici</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Accéder aux éléments du dictionnaire**</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="s1">&#39;nom&#39;</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;nom : &quot;</span><span class="p">,</span> <span class="n">d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;nom&#39;</span> <span class="p">,</span> <span class="s1">&#39;Pas trouvé&#39;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sexe :   &quot;</span><span class="p">,</span> <span class="n">d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;gender&#39;</span><span class="p">,</span> <span class="s1">&#39;Pas trouvé&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Timothee
+nom :  Timothee
+sexe :    Pas trouvé
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Mise à jour du dictionnaire**</span>
+<span class="c1"># Ajouter une nouvelle paire variable-valeur :</span>
+<span class="n">d</span><span class="p">[</span><span class="s1">&#39;taille&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">50</span><span class="p">)</span> <span class="c1"># un tuple, par exemple votre taille en (mètres,centimètres)</span>
+<span class="n">d</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;nom&#39;: &#39;Timothee&#39;, &#39;age&#39;: 1, &#39;taille&#39;: (1, 50)}
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Ajouter un dictionnaire**</span>
+<span class="c1"># update() ajoute deux dictionnaires ensemble</span>
+<span class="n">newdict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">lieu</span><span class="o">=</span><span class="s1">&#39;Lausanne&#39;</span><span class="p">,</span><span class="n">nationalite</span><span class="o">=</span><span class="s1">&#39;CH&#39;</span><span class="p">,</span><span class="n">annee_naissance</span><span class="o">=</span><span class="s1">&#39;2021&#39;</span><span class="p">)</span>
+<span class="n">d</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">newdict</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;nom&#39;: &#39;Timothee&#39;, &#39;age&#39;: 1, &#39;taille&#39;: (1, 50), &#39;lieu&#39;: &#39;Lausanne&#39;, &#39;nationalite&#39;: &#39;CH&#39;, &#39;annee_naissance&#39;: &#39;2021&#39;}
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Supprimer les éléments du dictionnaire**</span>
+<span class="c1"># pop(),del()</span>
+<span class="n">d2</span> <span class="o">=</span> <span class="n">d</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">d2</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
+<span class="k">del</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;age&#39;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Identique ? </span><span class="si">{</span><span class="n">d</span><span class="o">==</span><span class="n">d2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Identique ? True
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Dictionnaire transversal**</span>
+<span class="c1"># itérer sur les clés</span>
+<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">d</span> <span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">d</span><span class="p">[</span><span class="n">k</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>nom Timothee
+taille (1, 50)
+lieu Lausanne
+nationalite CH
+annee_naissance 2021
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">keys</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">values</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">items</span><span class="p">()))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;nom&#39;, &#39;taille&#39;, &#39;lieu&#39;, &#39;nationalite&#39;, &#39;annee_naissance&#39;]
+[&#39;Timothee&#39;, (1, 50), &#39;Lausanne&#39;, &#39;CH&#39;, &#39;2021&#39;]
+[(&#39;nom&#39;, &#39;Timothee&#39;), (&#39;taille&#39;, (1, 50)), (&#39;lieu&#39;, &#39;Lausanne&#39;), (&#39;nationalite&#39;, &#39;CH&#39;), (&#39;annee_naissance&#39;, &#39;2021&#39;)]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title #### **Triez le dictionnaire**</span>
+<span class="c1"># sorted()</span>
+<span class="n">states_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;AL&#39;</span> <span class="p">:</span> <span class="s1">&#39;Alabama&#39;</span><span class="p">,</span> <span class="s1">&#39;CA&#39;</span> <span class="p">:</span> <span class="s1">&#39;California&#39;</span><span class="p">,</span>
+               <span class="s1">&#39;NJ&#39;</span> <span class="p">:</span> <span class="s1">&#39;New Jersey&#39;</span><span class="p">,</span> <span class="s1">&#39;NY&#39;</span> <span class="p">:</span> <span class="s1">&#39;New York&#39;</span><span class="p">}</span>
+<span class="n">sorted_keys</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">states_dict</span><span class="o">.</span><span class="n">keys</span><span class="p">()),</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">sorted_keys</span> <span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> : </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">states_dict</span><span class="p">[</span><span class="n">key</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>AL : Alabama
+CA : California
+NJ : New Jersey
+NY : New York
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="fonctions-et-classes">
+<h1><span class="section-number">2.3.7. </span><strong>Fonctions et classes</strong><a class="headerlink" href="#fonctions-et-classes" title="Permalink to this heading">#</a></h1>
+<p>Pour les tâches plus longues et plus complexes, il est important d’organiser votre code en éléments réutilisables. Par exemple, si vous vous retrouvez à couper et coller les mêmes lignes de code ou des lignes similaires à plusieurs reprises, vous devez probablement définir une <em>fonction</em> pour encapsuler ce code et le rendre réutilisable. Un principe important de la programmation en <strong>DRY</strong> : “ne vous répétez pas”. La répétition est fastidieuse et vous expose à des erreurs. Recherchez l’élégance et la simplicité dans vos programmes.</p>
+<p>Nous pouvons utiliser les deux éléments suivants pour organiser notre code :</p>
+<ol class="arabic simple">
+<li><p>Les fonctions</p></li>
+<li><p>Les classes</p></li>
+</ol>
+<p>Référence :</p>
+<ul class="simple">
+<li><p>IBM Congnitive Class - Intro to Python (<a class="github reference external" href="https://github.com/computationalcore/introduction-to-python">computationalcore/introduction-to-python</a>)</p></li>
+<li><p>CUSP UCSL bootcamp 2017 (<a class="github reference external" href="https://github.com/Mohitsharma44/ucsl17">Mohitsharma44/ucsl17</a>)</p></li>
+<li><p>Introduction to Python (Ryan Abernathy; <a class="reference external" href="https://rabernat.github.io/research_computing/intro-to-python.html">https://rabernat.github.io/research_computing/intro-to-python.html</a>)</p></li>
+</ul>
+<section id="fonctions">
+<h2><span class="section-number">2.3.7.1. </span><strong>Fonctions</strong><a class="headerlink" href="#fonctions" title="Permalink to this heading">#</a></h2>
+<p>Les fonctions sont un élément central de la programmation avancée en Python. Les fonctions prennent des entrées (“arguments”) et font quelque chose en réponse. En général, les fonctions renvoient quelque chose, mais pas toujours.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title **Define a Function**</span>
+<span class="k">def</span> <span class="nf">say_hello</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Return the word hello.&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="s1">&#39;Hello&#39;</span>
+
+<span class="k">def</span> <span class="nf">say_hello_to</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">  Return the word hello to someone</span>
+<span class="sd">  &quot;&quot;&quot;</span>
+  <span class="k">return</span> <span class="s1">&#39;Hello, &#39;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+<span class="c1"># take an optional keyword argument</span>
+<span class="k">def</span> <span class="nf">say_hello_or_hola</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">french</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Say hello in multiple languages.&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">french</span><span class="p">:</span>
+        <span class="n">greeting</span> <span class="o">=</span> <span class="s1">&#39;Bonjour &#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">greeting</span> <span class="o">=</span> <span class="s1">&#39;Hello &#39;</span>
+    <span class="k">return</span> <span class="n">greeting</span> <span class="o">+</span> <span class="n">name</span>
+
+<span class="c1"># flexible number of arguments</span>
+<span class="k">def</span> <span class="nf">say_hello_to_everyone</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">[</span><span class="s1">&#39;Bonjour &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">args</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">say_hello</span><span class="p">())</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">say_hello</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello
+Hello
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">say_hello_or_hola</span><span class="p">(</span><span class="s1">&#39;Frédéric&#39;</span><span class="p">,</span> <span class="n">french</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span> <span class="c1"># Saluer le recteur</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">say_hello_or_hola</span><span class="p">(</span><span class="s1">&#39;Frédéric&#39;</span><span class="p">,</span> <span class="n">french</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">say_hello_to_everyone</span><span class="p">(</span><span class="s1">&#39;Niklas&#39;</span><span class="p">,</span> <span class="s1">&#39;Valérie&#39;</span><span class="p">,</span> <span class="s1">&#39;Marie-Élodie&#39;</span><span class="p">))</span> <span class="c1"># Saluer les doyens</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title **Fonction anonyme**</span>
+<span class="n">mul</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="n">a</span><span class="o">*</span><span class="n">b</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">mul</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title **Fonction map**</span>
+<span class="c1"># syntaxe : map(function,iterator)</span>
+<span class="n">numbers</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">num</span><span class="o">**</span><span class="mi">2</span>
+<span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">square</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>
+<span class="c1"># L&#39;équivalent de cette fonction est :</span>
+<span class="c1"># result = []</span>
+<span class="c1"># for i in range(1, 10) :</span>
+<span class="c1"># result.append(i**2)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># On peut aussi l&#39;écrire en une seule ligne !</span>
+<span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Retourne toutes les valeurs pour lesquelles %2 est différent de zéro... (Liste de tous les nombres impairs, n&#39;est-ce pas ?)</span>
+<span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">x</span><span class="o">%</span><span class="k">2</span>, range(1, 10)))
+</pre></div>
+</div>
+</div>
+</div>
+<section id="fonctions-pures-et-fonctions-impures">
+<h3><span class="section-number">2.3.7.1.1. </span><strong>Fonctions pures et fonctions impures</strong><a class="headerlink" href="#fonctions-pures-et-fonctions-impures" title="Permalink to this heading">#</a></h3>
+<p>Les fonctions qui ne modifient pas leurs arguments ou ne produisent pas d’autres effets secondaires sont appelées <em>pures</em>.</p>
+<p>Les fonctions qui modifient leurs arguments ou provoquent d’autres actions sont appelées <em>pures</em>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fonctions impures</span>
+<span class="k">def</span> <span class="nf">remove_last_from_list</span><span class="p">(</span><span class="n">input_list</span><span class="p">)</span> <span class="p">:</span>
+    <span class="n">input_list</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+<span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Niklas&#39;</span><span class="p">,</span> <span class="s1">&#39;Valérie&#39;</span><span class="p">,</span> <span class="s1">&#39;Marie-Élodie&#39;</span><span class="p">]</span>
+<span class="n">remove_last_from_list</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+<span class="n">remove_last_from_list</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Niklas&#39;, &#39;Valérie&#39;]
+[&#39;Niklas&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Nous pouvons faire quelque chose de similaire avec une fonction pure. En général, les fonctions pures sont plus sûres et plus fiables.</span>
+<span class="k">def</span> <span class="nf">remove_last_from_list_pure</span><span class="p">(</span><span class="n">input_list</span><span class="p">)</span> <span class="p">:</span>
+    <span class="n">new_list</span> <span class="o">=</span> <span class="n">input_list</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">new_list</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">new_list</span>
+
+<span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Niklas&#39;</span><span class="p">,</span> <span class="s1">&#39;Valérie&#39;</span><span class="p">,</span> <span class="s1">&#39;Marie-Élodie&#39;</span><span class="p">]</span>
+<span class="n">new_names</span> <span class="o">=</span> <span class="n">remove_last_from_list_pure</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">new_names</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Niklas&#39;, &#39;Valérie&#39;, &#39;Marie-Élodie&#39;]
+[&#39;Niklas&#39;, &#39;Valérie&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="espace-de-noms">
+<h3><span class="section-number">2.3.7.1.2. </span><strong>Espace de noms</strong><a class="headerlink" href="#espace-de-noms" title="Permalink to this heading">#</a></h3>
+<p>En Python, un espace de noms est une correspondance entre les noms de variables et les objets Python. On peut l’assimiler à un dictionnaire.
+L’espace de noms peut changer en fonction de l’endroit où vous vous trouvez dans votre programme. Les fonctions peuvent “voir” les variables dans l’espace de noms parent, mais elles peuvent également les redéfinir dans une portée privée.</p>
+<p>Il est important que vous soyez conscient des espaces de noms dans votre code, en particulier lorsque vous traitez avec des objets mutables.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Tom&#39;</span> <span class="c1"># Entrez votre nom ici</span>
+<span class="k">def</span> <span class="nf">print_name</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">print_name_v2</span><span class="p">():</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Estelle&#39;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+<span class="n">print_name</span><span class="p">()</span>
+<span class="n">print_name_v2</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Tom
+Estelle
+Tom
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">friends_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Mario&#39;</span><span class="p">,</span> <span class="s1">&#39;Florence&#39;</span><span class="p">,</span> <span class="s1">&#39;Richard&#39;</span><span class="p">]</span>
+<span class="n">pet_tuple</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;Hedwig&#39;</span><span class="p">,</span> <span class="s1">&#39;Na-paw-lyon&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat-hilda&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">greeter</span><span class="p">(</span><span class="n">friends</span><span class="p">,</span> <span class="n">pets</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;It&#39;s time to say hi to my friends.&quot;</span><span class="p">)</span>
+    <span class="p">[</span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Hi </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1">! &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">friends</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">These are the names of my pets:&#39;</span><span class="p">)</span>
+    <span class="p">[</span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">pet</span><span class="si">}</span><span class="s1"> &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">pet</span> <span class="ow">in</span> <span class="n">pets</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">pets_are_friends</span><span class="p">(</span><span class="n">friends</span><span class="p">,</span> <span class="n">pets</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;I consider both my pets and my friend&#39;s pets my friends!&quot;</span><span class="p">)</span>
+
+    <span class="c1">#add friend&#39;s pets</span>
+    <span class="n">full_pets</span> <span class="o">=</span> <span class="n">pets</span>
+    <span class="n">full_pets</span> <span class="o">+=</span> <span class="p">(</span><span class="s1">&#39;Clifford&#39;</span><span class="p">,</span> <span class="s1">&#39;Crookshanks&#39;</span><span class="p">)</span>
+
+    <span class="n">full_friends_list</span> <span class="o">=</span> <span class="n">friends</span>
+    <span class="n">full_friends_list</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">full_pets</span><span class="p">)</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;These are all my friends:&#39;</span><span class="p">)</span>
+    <span class="p">[</span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1"> &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">full_friends_list</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">greeter</span><span class="p">(</span><span class="n">friends_list</span><span class="p">,</span> <span class="n">pet_tuple</span><span class="p">)</span>
+<span class="n">pets_are_friends</span><span class="p">(</span><span class="n">friends_list</span><span class="p">,</span> <span class="n">pet_tuple</span><span class="p">)</span>
+<span class="n">greeter</span><span class="p">(</span><span class="n">friends_list</span><span class="p">,</span> <span class="n">pet_tuple</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>It&#39;s time to say hi to my friends.
+Hi Mario! Hi Florence! Hi Richard! 
+These are the names of my pets:
+Hedwig Na-paw-lyon Cat-hilda 
+
+I consider both my pets and my friend&#39;s pets my friends!
+These are all my friends:
+Mario Florence Richard Hedwig Na-paw-lyon Cat-hilda Clifford Crookshanks 
+
+It&#39;s time to say hi to my friends.
+Hi Mario! Hi Florence! Hi Richard! Hi Hedwig! Hi Na-paw-lyon! Hi Cat-hilda! Hi Clifford! Hi Crookshanks! 
+These are the names of my pets:
+Hedwig Na-paw-lyon Cat-hilda 
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="classes">
+<h2><span class="section-number">2.3.7.2. </span><strong>Classes</strong><a class="headerlink" href="#classes" title="Permalink to this heading">#</a></h2>
+<p>Jusqu’à présent, nous avons travaillé avec de nombreux types d’objets python :
+chaînes de caractères, listes, dictionnaires, etc.
+Ces objets ont différents attributs et répondent de différentes manières aux fonctions
+aux fonctions intégrées (<code class="docutils literal notranslate"><span class="pre">len</span></code>, etc.).</p>
+<p>Comment pouvons-nous créer nos propres objets personnalisés ? Réponse : en définissant des classes.</p>
+<section id="une-classe-pour-representer-un-ouragan">
+<h3><span class="section-number">2.3.7.2.1. </span><strong>Une classe pour représenter un ouragan</strong><a class="headerlink" href="#une-classe-pour-representer-un-ouragan" title="Permalink to this heading">#</a></h3>
+<p>Créons notre première classe ci-dessous,</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Hurricane</span><span class="p">:</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Et maintenant, créons une <em>instance</em> de cette classe, <code class="docutils literal notranslate"><span class="pre">h</span></code> :</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">h</span> <span class="o">=</span> <span class="n">Hurricane</span><span class="p">(</span><span class="s1">&#39;florence&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">h</span><span class="p">,</span><span class="n">h</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;__main__.Hurricane object at 0x110e348c0&gt; florence
+</pre></div>
+</div>
+</div>
+</div>
+<p>Ajoutons-en d’autres, ainsi qu’une validation des entrées :</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Hurricane</span><span class="p">:</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">category</span><span class="p">,</span> <span class="n">lon</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">category</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">category</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">lon</span> <span class="o">&gt;</span> <span class="mi">180</span> <span class="ow">or</span> <span class="n">lon</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mi">180</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Invalid lon </span><span class="si">{</span><span class="n">lon</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lon</span> <span class="o">=</span> <span class="n">lon</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">h</span> <span class="o">=</span> <span class="n">Hurricane</span><span class="p">(</span><span class="s1">&#39;florence&#39;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">46</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">h</span><span class="p">,</span><span class="n">h</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+<span class="n">h</span> <span class="o">=</span> <span class="n">Hurricane</span><span class="p">(</span><span class="s1">&#39;Ida&#39;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">300</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;__main__.Hurricane object at 0x110e35550&gt; FLORENCE
+</pre></div>
+</div>
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ValueError</span><span class="g g-Whitespace">                                </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">82</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="n">h</span> <span class="o">=</span> <span class="n">Hurricane</span><span class="p">(</span><span class="s1">&#39;florence&#39;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">46</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="nb">print</span><span class="p">(</span><span class="n">h</span><span class="p">,</span><span class="n">h</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="n">h</span> <span class="o">=</span> <span class="n">Hurricane</span><span class="p">(</span><span class="s1">&#39;Ida&#39;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">300</span><span class="p">)</span>
+
+<span class="nn">Cell In[81], line 8,</span> in <span class="ni">Hurricane.__init__</span><span class="nt">(self, name, category, lon)</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="bp">self</span><span class="o">.</span><span class="n">category</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">category</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="k">if</span> <span class="n">lon</span> <span class="o">&gt;</span> <span class="mi">180</span> <span class="ow">or</span> <span class="n">lon</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mi">180</span><span class="p">:</span>
+<span class="ne">----&gt; </span><span class="mi">8</span>     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Invalid lon </span><span class="si">{</span><span class="n">lon</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">9</span> <span class="bp">self</span><span class="o">.</span><span class="n">lon</span> <span class="o">=</span> <span class="n">lon</span>
+
+<span class="ne">ValueError</span>: Invalid lon 300
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ajoutons maintenant une méthode personnalisée :class Hurricane:</span>
+<span class="k">class</span> <span class="nc">Hurricane</span><span class="p">:</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">category</span><span class="p">,</span> <span class="n">lon</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">category</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">category</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">lon</span> <span class="o">&gt;</span> <span class="mi">180</span> <span class="ow">or</span> <span class="n">lon</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mi">180</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Invalid lon </span><span class="si">{</span><span class="n">lon</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lon</span> <span class="o">=</span> <span class="n">lon</span>
+
+    <span class="k">def</span> <span class="nf">is_dangerous</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">category</span> <span class="o">&gt;</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">f</span> <span class="o">=</span> <span class="n">Hurricane</span><span class="p">(</span><span class="s1">&#39;florence&#39;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">46</span><span class="p">)</span>
+<span class="n">f</span><span class="o">.</span><span class="n">is_dangerous</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="methodes-magiques-dunder">
+<h3><span class="section-number">2.3.7.2.2. </span><strong>Méthodes magiques / Dunder</strong><a class="headerlink" href="#methodes-magiques-dunder" title="Permalink to this heading">#</a></h3>
+<p>Nous pouvons implémenter des méthodes spéciales qui commencent par des doubles points (c’est-à-dire des méthodes “dunder”), qui nous permettent de personnaliser le comportement de nos classes. (<a class="reference external" href="https://www.python-course.eu/python3_magic_methods.php">En savoir plus ici</a>). Nous en avons déjà appris une : <code class="docutils literal notranslate"><span class="pre">__init__</span></code>. Implémentons la méthode <code class="docutils literal notranslate"><span class="pre">__repr__</span></code> pour que notre classe affiche quelque chose de joli.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Hurricane</span><span class="p">:</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">category</span><span class="p">,</span> <span class="n">lon</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">category</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">category</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">lon</span> <span class="o">&gt;</span> <span class="mi">180</span> <span class="ow">or</span> <span class="n">lon</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mi">180</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Invalid lon </span><span class="si">{</span><span class="n">lon</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lon</span> <span class="o">=</span> <span class="n">lon</span>
+
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;&lt;Hurricane </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> (cat </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">category</span><span class="si">}</span><span class="s2">)&gt;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">is_dangerous</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">category</span> <span class="o">&gt;</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">f</span> <span class="o">=</span> <span class="n">Hurricane</span><span class="p">(</span><span class="s1">&#39;florence&#39;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">46</span><span class="p">)</span>
+<span class="n">f</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1315,26 +1870,27 @@ La syntaxe pour la sérialisation et la désérialisation dans le paquet <code c
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#serialisation-et-deserialisation-avec-pickle">2.3.2.3. Sérialisation et désérialisation avec Pickle</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus">2.3.3. <strong>Bonus</strong></a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#donnees-structurees-avec-json">2.3.3.1. Données structurées avec JSON</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convertir-python-obj-en-json">2.3.3.2. Convertir python_obj en JSON</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#donnees-quadrillees-a-n-dimensions-avec-netcdf4">2.3.3.3. Données quadrillées à N dimensions avec NetCDF4</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#voici-comment-vous-creez-et-stockez-normalement-des-donnees-dans-un-fichier-netcdf">2.3.3.3.1. <strong>Voici comment vous créez et stockez normalement des données dans un fichier netCDF:</strong></a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ouvrir-un-jeu-de-donnees-netcdf4">2.3.3.3.1.1. <strong>Ouvrir un jeu de données netCDF4</strong></a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#creation-de-dimensions-dans-un-fichier-netcdf-font">2.3.3.3.1.2. <strong>Création de dimensions dans un fichier netCDF</strong></a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ajouter-des-attributs-variables-font">2.3.3.3.1.3. <strong>Ajouter des attributs variables</strong></a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ecrire-des-donnees-dans-un-fichier">2.3.3.3.1.4. <strong>Écrire des données dans un fichier</strong></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">2.3.3. Lists</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-a-jour-de-la-liste">2.3.3.1. <strong>Mise à jour de la liste</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#utiliser-des-listes-en-boucle">2.3.3.2. <strong>Utiliser des listes en boucle</strong></a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#nous-allons-maintenant-lire-le-fichier-netcdf4-stocke-pour-voir-ce-que-nous-venons-de-faire">2.3.3.3.2. Nous allons maintenant lire le fichier netCDF4 stocké pour voir ce que nous venons de faire.</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">2.3.4. Tuples</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#sets">2.3.5. Sets</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#dictionnaires">2.3.6. Dictionnaires</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#fonctions-et-classes">2.3.7. <strong>Fonctions et classes</strong></a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fonctions">2.3.7.1. <strong>Fonctions</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fonctions-pures-et-fonctions-impures">2.3.7.1.1. <strong>Fonctions pures et fonctions impures</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#espace-de-noms">2.3.7.1.2. <strong>Espace de noms</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#classes">2.3.7.2. <strong>Classes</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#une-classe-pour-representer-un-ouragan">2.3.7.2.1. <strong>Une classe pour représenter un ouragan</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#methodes-magiques-dunder">2.3.7.2.2. <strong>Méthodes magiques / Dunder</strong></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#list">2.3.4. List</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">2.3.5. Tuples</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#sets">2.3.6. Sets</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#dictionnaires">2.3.7. Dictionnaires</a></li>
 </ul>
 
   </nav></div>

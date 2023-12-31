@@ -14,42 +14,42 @@ parts:
           title: Chapitre 1 - Cadre général
           sections:
             - file: Geoinformatique_I/Carto/Tutoriel_IP/S1_Carto_tutoriel.ipynb
-              title: Tutorel 1
+              title: Tutoriel 1
             - file: Geoinformatique_I/Carto/Exercices_Carto/S1_Carto_exercice.ipynb
               title: Exercice 1
         - file: Geoinformatique_I/Carto/Intro_Carto/S2_carto.ipynb
           title: Chapitre 2 - Modélisation du territoire, généralisation
           sections:
             - file: Geoinformatique_I/Carto/Tutoriel_IP/S2_Carto_tutoriel.ipynb
-              title: Tutorel 2
+              title: Tutoriel 2
             - file: Geoinformatique_I/Carto/Exercices_Carto/S2_Carto_exercice.ipynb
               title: Exercice 2
         - file: Geoinformatique_I/Carto/Intro_Carto/S3_carto.ipynb
           title: Chapitre 3 - Types de cartes, sémiologie graphique, règles de représentation
           sections:
             - file: Geoinformatique_I/Carto/Tutoriel_IP/S3_Carto_tutoriel.ipynb
-              title: Tutorel 3
+              title: Tutoriel 3
             - file: Geoinformatique_I/Carto/Exercices_Carto/S3_Carto_exercice.ipynb
               title: Exercice 3
         - file: Geoinformatique_I/Carto/Intro_Carto/S4_carto.ipynb
           title: Chapitre 4 - Indicateurs et discrétisation
           sections:
             - file: Geoinformatique_I/Carto/Tutoriel_IP/S4_Carto_tutoriel.ipynb
-              title: Tutorel 4
+              title: Tutoriel 4
             - file: Geoinformatique_I/Carto/Exercices_Carto/S4_Carto_exercice.ipynb
               title: Exercice 4
         - file: Geoinformatique_I/Carto/Intro_Carto/S5_carto.ipynb
           title: Chapitre 5 - Habillage des cartes
           sections:
             - file: Geoinformatique_I/Carto/Tutoriel_IP/S5_Carto_tutoriel.ipynb
-              title: Tutorel 5
+              title: Tutoriel 5
             - file: Geoinformatique_I/Carto/Exercices_Carto/S5_Carto_exercice.ipynb
               title: Exercice 5
         - file: Geoinformatique_I/Carto/Intro_Carto/S6_carto.ipynb
           title: Chapitre 6 - Principe de base des SIG
           sections:
             - file: Geoinformatique_I/Carto/Tutoriel_IP/S6_Carto_tutoriel.ipynb
-              title: Tutorel 6
+              title: Tutoriel 6
             - file: Geoinformatique_I/Carto/Exercices_Carto/S6_Carto_exercice.ipynb
               title: Exercice 6
     - file: Geoinformatique_I/IP/Intro_IP/intro_python.ipynb
@@ -59,28 +59,30 @@ parts:
           title: Chapitre 1 - Introduction et bases de la programmation
           sections:
             - file: Geoinformatique_I/IP/Tutoriel_IP/S1_IP_tutoriel.ipynb
-              title: Tutorel 1
+              title: Tutoriel 1
             - file: Geoinformatique_I/IP/Exercices_IP/S1_IP_exercice.ipynb
               title: Exercice 1
         - file: Geoinformatique_I/IP/Intro_IP/S2_IP.ipynb
           title: Chapitre 2 - Structures de contrôle
           sections:
             - file: Geoinformatique_I/IP/Tutoriel_IP/S2_IP_tutoriel.ipynb
-              title: Tutorel 2
+              title: Tutoriel 2
             - file: Geoinformatique_I/IP/Exercices_IP/S2_IP_exercice.ipynb
               title: Exercice 2
         - file: Geoinformatique_I/IP/Intro_IP/S3_IP.ipynb
           title: Chapitre 3 - Structures de données
           sections:
             - file: Geoinformatique_I/IP/Tutoriel_IP/S3_IP_tutoriel.ipynb
-              title: Tutorel 3
+              title: Tutoriel 3
+            - file: Geoinformatique_I/IP/Tutoriel_IP/S3_IP_tutoriel_Bonus.ipynb
+              title: Bonus tutoriel 3
             - file: Geoinformatique_I/IP/Exercices_IP/S3_IP_exercice.ipynb
               title: Exercice 3
         - file: Geoinformatique_I/IP/Intro_IP/S4_IP.ipynb
           title: Chapitre 4 - Fonctions et calculs scientifiques
           sections:
             - file: Geoinformatique_I/IP/Tutoriel_IP/S4_IP_tutoriel.ipynb
-              title: Tutorel 4
+              title: Tutoriel 4
             - file: Geoinformatique_I/IP/Exercices_IP/S4_IP_exercice.ipynb
               title: Exercice 4
         - file: Geoinformatique_I/IP/Intro_IP/S5_IP.ipynb
