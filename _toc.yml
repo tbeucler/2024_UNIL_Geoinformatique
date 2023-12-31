@@ -75,7 +75,7 @@ parts:
             - file: Geoinformatique_I/IP/Tutoriel_IP/S3_IP_tutoriel.ipynb
               title: Tutoriel 3
             - file: Geoinformatique_I/IP/Tutoriel_IP/S3_IP_tutoriel_Bonus.ipynb
-              title: Bonus tutoriel 3
+              title: Bonus Tutoriel 3
             - file: Geoinformatique_I/IP/Exercices_IP/S3_IP_exercice.ipynb
               title: Exercice 3
         - file: Geoinformatique_I/IP/Intro_IP/S4_IP.ipynb
@@ -86,7 +86,7 @@ parts:
             - file: Geoinformatique_I/IP/Exercices_IP/S4_IP_exercice.ipynb
               title: Exercice 4
         - file: Geoinformatique_I/IP/Intro_IP/S5_IP.ipynb
-          title: Chapitre 5 - Clases & objets et Meilleurs pratiques de programmation
+          title: Chapitre 5 - Classes & objets et Meilleurs pratiques de programmation
           sections:
             - file:  Geoinformatique_I/IP/Tutoriel_IP/S5_IP_tutoriel.ipynb
               title: Tutoriel 5
