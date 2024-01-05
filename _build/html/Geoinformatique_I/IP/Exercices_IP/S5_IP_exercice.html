@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>2.5.2. Exercice 5 - &#8212; E Book</title>
+    <title>2.5.2. Exercice 5 - Bonnes pratiques de programmation &#8212; E Book</title>
   
   
   
@@ -501,7 +501,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -512,11 +514,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Exercice 5 -</h1>
+    <h1>Exercice 5 - Bonnes pratiques de programmation</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#classes">2.5.2.1. Classes</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -527,8 +537,72 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <p><a href="https://colab.research.google.com/github/tbeucler/2024_UNIL_Geoinformatique/blob/main/Geoinformatique_I/IP/Exercices_IP/S5_IP_exercice.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
-<section id="exercice-5">
-<h1><span class="section-number">2.5.2. </span>Exercice 5 -<a class="headerlink" href="#exercice-5" title="Permalink to this heading">#</a></h1>
+<section class="tex2jax_ignore mathjax_ignore" id="exercice-5-bonnes-pratiques-de-programmation">
+<h1><span class="section-number">2.5.2. </span>Exercice 5 - Bonnes pratiques de programmation<a class="headerlink" href="#exercice-5-bonnes-pratiques-de-programmation" title="Permalink to this heading">#</a></h1>
+<section id="classes">
+<h2><span class="section-number">2.5.2.1. </span>Classes<a class="headerlink" href="#classes" title="Permalink to this heading">#</a></h2>
+<p><strong>Q1) Ecrivez une classe <code class="docutils literal notranslate"><span class="pre">planet</span></code> avec deux attributs : <code class="docutils literal notranslate"><span class="pre">nom</span></code> et <code class="docutils literal notranslate"><span class="pre">masse</span></code></strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Écrivez votre classe ici</span>
+<span class="n">classe</span> <span class="n">planet</span> <span class="p">:</span>
+  <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="n">____</span><span class="p">,</span><span class="n">inname</span><span class="o">=</span><span class="n">____</span><span class="p">,</span><span class="n">inmass</span><span class="o">=</span><span class="n">____</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">inname</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">mass</span> <span class="o">=</span> <span class="n">inmass</span>
+<span class="c1"># Créer une nouvelle instance de cette classe pour représenter la Terre (masse=5,97)</span>
+<span class="n">terre</span> <span class="o">=</span> <span class="n">planet</span><span class="p">(</span><span class="n">_______</span><span class="p">,</span><span class="n">_____</span><span class="p">)</span>
+<span class="c1"># Créer une nouvelle instance de cette classe pour représenter Jupiter (masse=1898)</span>
+<span class="n">jupiter</span> <span class="o">=</span> <span class="n">planet</span><span class="p">(</span><span class="n">_______</span><span class="p">,</span><span class="n">____</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+    <span class="n">classe</span> <span class="n">planet</span> <span class="p">:</span>
+           <span class="o">^</span>
+<span class="ne">SyntaxError</span>: invalid syntax
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Comment vérifier que vous avez fait le bon choix ?</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">terre</span><span class="o">.</span><span class="n">_____</span><span class="p">,</span><span class="n">terre</span><span class="o">.</span><span class="n">____</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Earth 5.97
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Q2) Ajouter une méthode personnalisée <code class="docutils literal notranslate"><span class="pre">is_light</span></code> à la classe <code class="docutils literal notranslate"><span class="pre">planet</span></code> qui retourne <code class="docutils literal notranslate"><span class="pre">True</span></code> si la planète est strictement plus légère que Jupiter, <code class="docutils literal notranslate"><span class="pre">False</span></code> strictement plus lourde que Jupiter, et ‘same mass!’ si la planète pèse le même poids que Jupiter</strong>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Changez votre classe ici</span>
+<span class="k">class</span> <span class="nc">planet</span> <span class="p">:</span>
+  <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="n">____</span><span class="p">,</span><span class="n">inname</span><span class="o">=</span><span class="n">____</span><span class="p">,</span><span class="n">inmass</span><span class="o">=</span><span class="n">____</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">inname</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">mass</span> <span class="o">=</span> <span class="n">inmass</span>
+  <span class="k">def</span> <span class="nf">is_light</span><span class="p">(</span><span class="n">____</span><span class="p">)</span> <span class="p">:</span>
+    <span class="k">if</span> <span class="n">___________</span><span class="o">&lt;</span><span class="n">planetdict</span><span class="p">[</span><span class="s1">&#39;jupiter&#39;</span><span class="p">]:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;True&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">____________</span><span class="o">&gt;</span><span class="n">planetdict</span><span class="p">[</span><span class="s1">&#39;jupiter&#39;</span><span class="p">]:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;False&#39;</span><span class="p">)</span>
+    <span class="k">else</span> <span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;même masse!&#39;</span><span class="p">)</span>
+
+<span class="c1"># Demandez à Python si la Terre est plus légère que Jupiter, vous devriez voir True pour cette question !</span>
+<span class="n">planet</span><span class="p">(</span><span class="n">_____</span><span class="p">,</span><span class="n">planetdict</span><span class="p">[</span><span class="n">_____</span><span class="p">])</span><span class="o">.</span><span class="n">is_light</span><span class="p">()</span>
+<span class="c1"># Demandez à Python si Jupiter est plus léger qu&#39;elle-même, vous devriez voir same mass ! pour celle-ci !</span>
+<span class="n">planet</span><span class="p">(</span><span class="n">_____</span><span class="p">,</span><span class="n">planetdict</span><span class="p">[</span><span class="n">_____</span><span class="p">])</span><span class="o">.</span><span class="n">is_light</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -585,6 +659,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#classes">2.5.2.1. Classes</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

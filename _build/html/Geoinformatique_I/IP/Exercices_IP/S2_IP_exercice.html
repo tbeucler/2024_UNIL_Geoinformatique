@@ -526,7 +526,10 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">2.2.2.1. Indentation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditions-if-else-elif">2.2.2.2. Conditions if, else, elif</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#boucle-for-et-while">2.2.2.3. Boucle for et while</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#boucle-for-et-while">2.2.2.3. Boucle for et while</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#echauffement">2.2.2.3.1. Échauffement</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -539,7 +542,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <p><a href="https://colab.research.google.com/github/tbeucler/2024_UNIL_Geoinformatique/blob/main/Geoinformatique_I/IP/Exercices_IP/S2_IP_exercice.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
-<section id="exercice-2-structure-de-controle">
+<section class="tex2jax_ignore mathjax_ignore" id="exercice-2-structure-de-controle">
 <h1><span class="section-number">2.2.2. </span>Exercice 2 - Structure de contrôle<a class="headerlink" href="#exercice-2-structure-de-controle" title="Permalink to this heading">#</a></h1>
 <section id="indentation">
 <h2><span class="section-number">2.2.2.1. </span>Indentation<a class="headerlink" href="#indentation" title="Permalink to this heading">#</a></h2>
@@ -549,6 +552,65 @@ document.write(`
 </section>
 <section id="boucle-for-et-while">
 <h2><span class="section-number">2.2.2.3. </span>Boucle for et while<a class="headerlink" href="#boucle-for-et-while" title="Permalink to this heading">#</a></h2>
+<section id="echauffement">
+<h3><span class="section-number">2.2.2.3.1. </span>Échauffement<a class="headerlink" href="#echauffement" title="Permalink to this heading">#</a></h3>
+<p><strong>1. Ecrire une boucle <code class="docutils literal notranslate"><span class="pre">while</span></code> pour afficher les valeurs des classements d’une liste de lecture d’albums stockée dans la liste <code>PlayListRatings</code>. Si le score est inférieur à 6, on sort de la boucle. La liste <code>PlayListRatings</code> est donnée par : <code>PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10]</code></strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ecrivez votre code ici</span>
+<span class="n">PlayListRating</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mf">9.5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mf">7.5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+
+<span class="c1"># Astuce : Utilisez l&#39;indexation de la liste comme critère (taille de votre liste)</span>
+<span class="n">indx</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">____</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">______________</span><span class="p">):</span>
+  <span class="k">if</span> <span class="n">____________</span><span class="p">[</span><span class="n">____</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">6</span><span class="p">:</span>
+    <span class="n">____</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">_________</span><span class="p">[</span><span class="n">____</span><span class="p">])</span>
+  <span class="n">____</span><span class="o">+=</span><span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">6</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="c1"># Astuce : Utilisez l&#39;indexation de la liste comme critère (taille de votre liste)</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">indx</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="ne">----&gt; </span><span class="mi">6</span> <span class="k">while</span> <span class="n">____</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">______________</span><span class="p">):</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span>   <span class="k">if</span> <span class="n">____________</span><span class="p">[</span><span class="n">____</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">6</span><span class="p">:</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span>     <span class="n">____</span>
+
+<span class="ne">NameError</span>: name &#39;____&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>2. Répétez ce que vous venez de faire, cette fois en utilisant une boucle <code class="docutils literal notranslate"><span class="pre">for</span></code></strong>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">____</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">______________</span><span class="p">)):</span>
+  <span class="k">if</span> <span class="n">_____________</span><span class="p">[</span><span class="n">____</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">6</span><span class="p">:</span>
+    <span class="n">____</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">_____________</span><span class="p">[</span><span class="n">____</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>3. Ecrivez une boucle <code class="docutils literal notranslate"><span class="pre">for</span></code> qui imprime la liste suivante : <code>carres=[‘rouge’, ‘jaune’, ‘vert’, ‘violet’, ‘bleu’]</code></strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">carres</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># An empty list</span>
+<span class="k">for</span> <span class="n">___</span><span class="p">,</span><span class="n">___</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">([</span><span class="n">_____________________</span><span class="p">]):</span>
+  <span class="n">carres</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">___</span><span class="p">)</span> <span class="c1"># Here you add (append) the elements one by one to the empty list</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">carres</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
 </section>
 </section>
 
@@ -617,7 +679,10 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">2.2.2.1. Indentation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditions-if-else-elif">2.2.2.2. Conditions if, else, elif</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#boucle-for-et-while">2.2.2.3. Boucle for et while</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#boucle-for-et-while">2.2.2.3. Boucle for et while</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#echauffement">2.2.2.3.1. Échauffement</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

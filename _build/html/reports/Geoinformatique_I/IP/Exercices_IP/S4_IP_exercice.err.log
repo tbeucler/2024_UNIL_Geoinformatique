@@ -15,27 +15,20 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-h = Hurricane('florence', 4, -46)
-print(h,h.name)
-h = Hurricane('Ida', 5, 300)
+import pooch
+
+url = "https://unils-my.sharepoint.com/:u:/g/personal/tom_beucler_unil_ch/EZwbaBqass1LhZO3DS3BCL0BhIlcENuoDItMB9b4IYDUCQ?download=1"
+files = pooch.retrieve(url, processor=pooch.Unzip(), known_hash='2a703c720302c682f1662181d329c9f22f9f10e1539dc2d6082160a469165009')
+files
 ------------------
 
------ stdout -----
-<__main__.Hurricane object at 0x7fb97bac7cd0> FLORENCE
-------------------
 
 [0;31m---------------------------------------------------------------------------[0m
-[0;31mValueError[0m                                Traceback (most recent call last)
-Cell [0;32mIn[4], line 3[0m
-[1;32m      1[0m h [38;5;241m=[39m Hurricane([38;5;124m'[39m[38;5;124mflorence[39m[38;5;124m'[39m, [38;5;241m4[39m, [38;5;241m-[39m[38;5;241m46[39m)
-[1;32m      2[0m [38;5;28mprint[39m(h,h[38;5;241m.[39mname)
-[0;32m----> 3[0m h [38;5;241m=[39m [43mHurricane[49m[43m([49m[38;5;124;43m'[39;49m[38;5;124;43mIda[39;49m[38;5;124;43m'[39;49m[43m,[49m[43m [49m[38;5;241;43m5[39;49m[43m,[49m[43m [49m[38;5;241;43m300[39;49m[43m)[49m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [0;32mIn[1], line 1[0m
+[0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01mpooch[39;00m
+[1;32m      3[0m url [38;5;241m=[39m [38;5;124m"[39m[38;5;124mhttps://unils-my.sharepoint.com/:u:/g/personal/tom_beucler_unil_ch/EZwbaBqass1LhZO3DS3BCL0BhIlcENuoDItMB9b4IYDUCQ?download=1[39m[38;5;124m"[39m
+[1;32m      4[0m files [38;5;241m=[39m pooch[38;5;241m.[39mretrieve(url, processor[38;5;241m=[39mpooch[38;5;241m.[39mUnzip(), known_hash[38;5;241m=[39m[38;5;124m'[39m[38;5;124m2a703c720302c682f1662181d329c9f22f9f10e1539dc2d6082160a469165009[39m[38;5;124m'[39m)
 
-Cell [0;32mIn[3], line 8[0m, in [0;36mHurricane.__init__[0;34m(self, name, category, lon)[0m
-[1;32m      5[0m [38;5;28mself[39m[38;5;241m.[39mcategory [38;5;241m=[39m [38;5;28mint[39m(category)
-[1;32m      7[0m [38;5;28;01mif[39;00m lon [38;5;241m>[39m [38;5;241m180[39m [38;5;129;01mor[39;00m lon [38;5;241m<[39m [38;5;241m-[39m[38;5;241m180[39m:
-[0;32m----> 8[0m     [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m([38;5;124mf[39m[38;5;124m'[39m[38;5;124mInvalid lon [39m[38;5;132;01m{[39;00mlon[38;5;132;01m}[39;00m[38;5;124m'[39m)
-[1;32m      9[0m [38;5;28mself[39m[38;5;241m.[39mlon [38;5;241m=[39m lon
-
-[0;31mValueError[0m: Invalid lon 300
+[0;31mModuleNotFoundError[0m: No module named 'pooch'
 
