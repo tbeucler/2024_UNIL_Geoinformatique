@@ -524,9 +524,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">2.2.2.1. Indentation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditions-if-else-elif-et-boucle-for-while">2.2.2.2. Conditions if, else, elif et boucle for/ while</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#boucle-for-et-while">2.2.2.3. Boucle for et while</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditions-if-else-elif">2.2.2.1. Conditions if, else, elif</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#boucle-for-et-while">2.2.2.2. Boucle for et while</a></li>
 </ul>
             </nav>
         </div>
@@ -541,14 +540,70 @@ document.write(`
   <p><a href="https://colab.research.google.com/github/tbeucler/2024_UNIL_Geoinformatique/blob/main/Geoinformatique_I/IP/Exercices_IP/S2_IP_exercice.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
 <section class="tex2jax_ignore mathjax_ignore" id="exercice-2-structure-de-controle">
 <h1><span class="section-number">2.2.2. </span>Exercice 2 - Structure de contrôle<a class="headerlink" href="#exercice-2-structure-de-controle" title="Permalink to this heading">#</a></h1>
-<section id="indentation">
-<h2><span class="section-number">2.2.2.1. </span>Indentation<a class="headerlink" href="#indentation" title="Permalink to this heading">#</a></h2>
-</section>
-<section id="conditions-if-else-elif-et-boucle-for-while">
-<h2><span class="section-number">2.2.2.2. </span>Conditions if, else, elif et boucle for/ while<a class="headerlink" href="#conditions-if-else-elif-et-boucle-for-while" title="Permalink to this heading">#</a></h2>
+<section id="conditions-if-else-elif">
+<h2><span class="section-number">2.2.2.1. </span>Conditions if, else, elif<a class="headerlink" href="#conditions-if-else-elif" title="Permalink to this heading">#</a></h2>
+<p><strong>1. Vérification de la partié</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ecrivez votre code ici</span>
+<span class="n">nombre</span> <span class="o">=</span> <span class="n">____</span> <span class="c1">#Entrez un nombre entier</span>
+
+<span class="k">if</span> <span class="n">____</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="n">__</span> <span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pair&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Impaire&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># Ecrivez votre code ici</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">nombre</span> <span class="o">=</span> <span class="n">____</span> <span class="c1">#Entrez un nombre entier</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="k">if</span> <span class="n">____</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="n">__</span> <span class="p">:</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span>     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pair&quot;</span><span class="p">)</span>
+
+<span class="ne">NameError</span>: name &#39;____&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>2. Comparaison de deux nombres</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">nombre1</span> <span class="o">=</span> <span class="n">____</span> <span class="c1">#Entrey un chiffre à virgule</span>
+<span class="n">nombre2</span> <span class="o">=</span> <span class="n">____</span> <span class="c1">#Entrez un deuxième chiffre à virgule</span>
+
+<span class="k">if</span> <span class="n">_____</span> <span class="o">&gt;</span> <span class="n">_____</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Le premier nombre est plus grand.&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">_____</span> <span class="o">&gt;</span> <span class="n">_____</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Le deuxième nombre est plus grand.&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Les deux nombre sont égaux&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>3. Catégorisation d’âge</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">age</span> <span class="o">=</span> <span class="n">____</span> <span class="c1"># Entrez un nombre entier</span>
+<span class="k">if</span> <span class="n">____</span> <span class="o">&lt;</span> <span class="mi">12</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Enfant&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="mi">12</span> <span class="o">&lt;=</span> <span class="n">____</span> <span class="o">&lt;</span> <span class="mi">18</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Adolescent&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="mi">18</span> <span class="o">&lt;=</span> <span class="n">____</span> <span class="o">&lt;</span> <span class="mi">65</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Adulte&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Senior&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 <section id="boucle-for-et-while">
-<h2><span class="section-number">2.2.2.3. </span>Boucle for et while<a class="headerlink" href="#boucle-for-et-while" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">2.2.2.2. </span>Boucle for et while<a class="headerlink" href="#boucle-for-et-while" title="Permalink to this heading">#</a></h2>
 <p><strong>1. Ecrire une boucle <code class="docutils literal notranslate"><span class="pre">while</span></code> pour afficher les valeurs des classements d’une liste de lecture d’albums stockée dans la liste <code>PlayListRatings</code>. Si le score est inférieur à 6, on sort de la boucle. La liste <code>PlayListRatings</code> est donnée par : <code>PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10]</code></strong></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -566,20 +621,6 @@ document.write(`
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">6</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="c1"># Astuce : Utilisez l&#39;indexation de la liste comme critère (taille de votre liste)</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">indx</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="ne">----&gt; </span><span class="mi">6</span> <span class="k">while</span> <span class="n">____</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">______________</span><span class="p">):</span>
-<span class="g g-Whitespace">      </span><span class="mi">7</span>   <span class="k">if</span> <span class="n">____________</span><span class="p">[</span><span class="n">____</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">6</span><span class="p">:</span>
-<span class="g g-Whitespace">      </span><span class="mi">8</span>     <span class="n">____</span>
-
-<span class="ne">NameError</span>: name &#39;____&#39; is not defined
-</pre></div>
-</div>
-</div>
 </div>
 <p><strong>2. Répétez ce que vous venez de faire, cette fois en utilisant une boucle <code class="docutils literal notranslate"><span class="pre">for</span></code></strong>.</p>
 <div class="cell docutils container">
@@ -588,7 +629,7 @@ document.write(`
   <span class="k">if</span> <span class="n">_____________</span><span class="p">[</span><span class="n">____</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">6</span><span class="p">:</span>
     <span class="n">____</span>
   <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">_____________</span><span class="p">[</span><span class="n">____</span><span class="p">]))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">_____________</span><span class="p">[</span><span class="n">____</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
@@ -671,9 +712,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">2.2.2.1. Indentation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditions-if-else-elif-et-boucle-for-while">2.2.2.2. Conditions if, else, elif et boucle for/ while</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#boucle-for-et-while">2.2.2.3. Boucle for et while</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditions-if-else-elif">2.2.2.1. Conditions if, else, elif</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#boucle-for-et-while">2.2.2.2. Boucle for et while</a></li>
 </ul>
   </nav></div>
 

@@ -1234,7 +1234,90 @@ first: papillon second: 2
 </section>
 <section id="sets">
 <h2><span class="section-number">2.3.1.4. </span>Sets<a class="headerlink" href="#sets" title="Permalink to this heading">#</a></h2>
-<p>ajouter…</p>
+<p>Un ensemble (set) est une structure de données non ordonnée qui ne permet pas les éléments dupliqués. Les ensembles sont utiles pour effectuer des opérations ensemblistes telles que l’union, l’intersection et la différence.</p>
+<p>Création d’un ensemble:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Création d&#39;un ensemble vide</span>
+<span class="n">ensemble_vide</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+
+<span class="c1"># Création d&#39;un ensemble avec des éléments</span>
+<span class="n">mon_ensemble</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Ajout d’éléments:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ajout d&#39;un élément à un ensemble</span>
+<span class="n">mon_ensemble</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+
+<span class="c1"># Ajout de plusieurs éléments à un ensemble</span>
+<span class="n">mon_ensemble</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Suppression d’éléments:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Suppression d&#39;un élément spécifique</span>
+<span class="n">mon_ensemble</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="c1"># Suppression d&#39;un élément sans générer d&#39;erreur si l&#39;élément n&#39;est pas présent</span>
+<span class="n">mon_ensemble</span><span class="o">.</span><span class="n">discard</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Opérations ensemblistes:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Union de deux ensembles</span>
+<span class="n">ensemble1</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}</span>
+<span class="n">ensemble2</span> <span class="o">=</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">}</span>
+<span class="n">union_resultat</span> <span class="o">=</span> <span class="n">ensemble1</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="n">ensemble2</span><span class="p">)</span>
+
+<span class="c1"># Intersection de deux ensembles</span>
+<span class="n">intersection_resultat</span> <span class="o">=</span> <span class="n">ensemble1</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">ensemble2</span><span class="p">)</span>
+
+<span class="c1"># Différence entre deux ensembles</span>
+<span class="n">difference_resultat</span> <span class="o">=</span> <span class="n">ensemble1</span><span class="o">.</span><span class="n">difference</span><span class="p">(</span><span class="n">ensemble2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Vérification d’appartenance:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Vérification si un élément appartient à l&#39;ensemble</span>
+<span class="n">appartient</span> <span class="o">=</span> <span class="mi">2</span> <span class="ow">in</span> <span class="n">ensemble1</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Parcours d’un ensemble:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Parcours des éléments de l&#39;ensemble</span>
+<span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">mon_ensemble</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Conversion vers un ensemble:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Conversion d&#39;une liste en ensemble</span>
+<span class="n">liste</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="n">ensemble_a_partir_de_liste</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">liste</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>La capacité à gérer des données non ordonnées et à éliminer les doublons les rend utiles dans de nombreuses situations.</p>
 </section>
 <section id="dictionnaires">
 <h2><span class="section-number">2.3.1.5. </span>Dictionnaires<a class="headerlink" href="#dictionnaires" title="Permalink to this heading">#</a></h2>

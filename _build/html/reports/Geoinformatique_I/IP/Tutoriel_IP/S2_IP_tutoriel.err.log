@@ -15,23 +15,21 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-# Ecrivez votre code ici
-nombre = ____ #Entrez un nombre entier
-
-if ____ % 2 == __ :
-    print("Pair")
-else:
-    print("Impaire")
+# Exemple d'indentation correcte
+if True:
+    print("Cette déclaration est à l'intérieur du bloc if.")
+    print("Tout comme celle-ci.")
+    
+# Exemple d'indentation incorrecte
+if True:
+  print("Cette déclaration a une indentation incohérente.")
+    print("Celle-ci provoquera une erreur.")
 ------------------
 
 
-[0;31m---------------------------------------------------------------------------[0m
-[0;31mNameError[0m                                 Traceback (most recent call last)
-Cell [0;32mIn[1], line 2[0m
-[1;32m      1[0m [38;5;66;03m# Ecrivez votre code ici[39;00m
-[0;32m----> 2[0m nombre [38;5;241m=[39m [43m____[49m [38;5;66;03m#Entrez un nombre entier[39;00m
-[1;32m      4[0m [38;5;28;01mif[39;00m ____ [38;5;241m%[39m [38;5;241m2[39m [38;5;241m==[39m __ :
-[1;32m      5[0m     [38;5;28mprint[39m([38;5;124m"[39m[38;5;124mPair[39m[38;5;124m"[39m)
+[0;36m  Cell [0;32mIn[9], line 9[0;36m[0m
+[0;31m    print("Celle-ci provoquera une erreur.")[0m
+[0m    ^[0m
+[0;31mIndentationError[0m[0;31m:[0m unexpected indent
 
-[0;31mNameError[0m: name '____' is not defined
 

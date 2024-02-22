@@ -770,9 +770,124 @@ Q4.   Itérer à travers vos planètes et imprimer le nom de la planète seuleme
 </section>
 <section id="tuples">
 <h2><span class="section-number">2.3.3.4. </span>Tuples<a class="headerlink" href="#tuples" title="Permalink to this heading">#</a></h2>
+<p><strong>Q1) Créer un tuple avec 5 noms des fruits. Par exemple: ‘pomme’, ‘orange’, ‘kiwi’, ‘banane’, ‘mangue’</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fruits</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Ajoutez le nom de chaque fruit à la liste ‘fruits_selectionnes’ si sa longueur de nom est supérieure à 5, sinon, ajoutez ‘Non sélectionné’</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fruits_selectionnes</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">fruit</span> <span class="ow">in</span> <span class="n">fruits</span><span class="p">:</span>
+    <span class="c1"># Maintenant, vous allez accéder à la longueur de chaque nom de fruit</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">____</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">____</span><span class="p">:</span>
+        <span class="n">fruits_selectionnes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">_____</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">________</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Non sélectionné&#39;</span><span class="p">)</span>
+
+<span class="c1"># Imprimer les fruits sélectionnés</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">_____</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Q2) # Créez une liste de tuples, chaque tuple représente un produit et son prix. Par exemple: produits = [(“Laptop”, 800), (“Smartphone”, 500), (“Casque”, 30), (“Tablette”, 120)]</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">produits</span> <span class="o">=</span> <span class="p">[(</span><span class="s2">&quot;____&quot;</span><span class="p">,</span> <span class="n">___</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;_______&quot;</span><span class="p">,</span> <span class="n">___</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;______&quot;</span><span class="p">,</span> <span class="n">___</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;______&quot;</span><span class="p">,</span> <span class="n">___</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Calculez le total des prix des produits et ajoutez le nom du produit s’il coûte plus de 50, sinon, ajoutez ‘Non sélectionné’.</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># initialiser </span>
+<span class="n">total_prix</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">produits_selectionnes</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">produit</span><span class="p">,</span> <span class="n">prix</span> <span class="ow">in</span> <span class="n">____</span><span class="p">:</span>
+    <span class="n">total_prix</span> <span class="o">+=</span> <span class="n">____</span>
+    <span class="k">if</span> <span class="n">____</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">:</span>
+        <span class="n">produits_selectionnes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">____</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">______</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Non sélectionné&#39;</span><span class="p">)</span>
+
+<span class="c1"># Imprimer le résultat</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Total des prix :&quot;</span><span class="p">,</span> <span class="n">_____</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Produits sélectionnés :&quot;</span><span class="p">,</span> <span class="n">______</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 <section id="set">
 <h2><span class="section-number">2.3.3.5. </span>Set<a class="headerlink" href="#set" title="Permalink to this heading">#</a></h2>
+<p><strong>Q1) Créez une liste des couleurs. Par exemple: couleurs = [‘rouge’, ‘vert’, ‘bleu’, ‘jaune’, ‘rouge’, ‘violet’, ‘vert’]</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">couleurs</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">,</span> <span class="s1">&#39;_____&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Utilisez un ensemble pour éliminer les doublons et créez un nouvel ensemble appelé ‘couleurs_uniques’.</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Convertir</span>
+<span class="n">couleurs_uniques</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">_____</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Créez une liste ‘couleurs_longues’ en ajoutant les couleurs de ‘couleurs_uniques’ dont la longueur est supérieure à 5.</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Hint: utilisez un variable pour accéder les éléments dans couleurs_uniques</span>
+<span class="n">couleurs_longues</span> <span class="o">=</span> <span class="p">[</span><span class="n">______</span> <span class="k">for</span> <span class="n">_____</span> <span class="ow">in</span> <span class="n">couleurs_uniques</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">______</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">]</span>
+
+<span class="c1"># Imprimer les résultats</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Couleurs uniques :&quot;</span><span class="p">,</span> <span class="n">__________</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Couleurs longues :&quot;</span><span class="p">,</span> <span class="n">__________</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Q2) Vous avez deux listes, l’une contenant les noms d’étudiants qui ont réussi le premier examen, et l’autre contenant les noms d’étudiants qui ont réussi le deuxième examen.</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Créez les deux listes avec 4 prénoms dans chaque liste</span>
+<span class="n">reussite_examen1</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;____&#39;</span><span class="p">,</span> <span class="s1">&#39;____&#39;</span><span class="p">,</span> <span class="s1">&#39;____&#39;</span><span class="p">,</span> <span class="s1">&#39;____&#39;</span><span class="p">}</span>
+<span class="n">reussite_examen2</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;____&#39;</span><span class="p">,</span> <span class="s1">&#39;____&#39;</span><span class="p">,</span> <span class="s1">&#39;____&#39;</span><span class="p">,</span> <span class="s1">&#39;____&#39;</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Créez un nouveau variable <code class="docutils literal notranslate"><span class="pre">reussite_les_deux</span></code> pour les étudiants qui ont réussi les deux examens</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">reussite_les_deux</span> <span class="o">=</span> <span class="n">______</span><span class="o">.</span><span class="n">_____</span><span class="p">(</span><span class="n">______</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Créez un nouveau variable <code class="docutils literal notranslate"><span class="pre">reussite_au_moins_un</span></code> pour les étudiants qui ont réussi au moins un examen.</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">reussite_au_moins_un</span> <span class="o">=</span> <span class="n">______</span><span class="o">.</span><span class="n">_____</span><span class="p">(</span><span class="n">______</span><span class="p">)</span>
+
+<span class="c1"># Imprimer</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Étudiants qui ont réussi les deux examens :&quot;</span><span class="p">,</span> <span class="n">________</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Étudiants qui ont réussi au moins un examen :&quot;</span><span class="p">,</span> <span class="n">________</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 </section>
 

@@ -524,10 +524,13 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">2.2.1.1. Indentation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#les-instructions-conditionnelles">2.2.1.2. Les instructions conditionnelles</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions-de-boucle">2.2.1.3. Instructions de boucle</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions-de-controle-de-boucle">2.2.1.4. Instructions de contrôle de boucle</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#les-instructions-conditionnelles">2.2.1.1. Les instructions conditionnelles</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions-de-boucle">2.2.1.2. Instructions de boucle</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions-de-controle-de-boucle">2.2.1.3. Instructions de contrôle de boucle</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">2.2.1.4. Indentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structures-de-controle">2.2.1.4.1. Structures de contrôle :</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -546,22 +549,18 @@ document.write(`
 <p>Cependant, dans des situations réelles, vous aurez souvent besoin d’exécuter un bout de code plusieurs fois, ou d’exécuter une partie d’un code en fonction de différentes conditions. Nous utilisons les instructions de flux de contrôle pour ces tâches légèrement plus complexes.</p>
 <p>Dans cette section, nous aborderons les points suivants:</p>
 <ol class="arabic simple">
-<li><p>Indentation</p></li>
 <li><p>Les instructions conditionnelles – if, else et elif</p></li>
 <li><p>Instructions de boucle – for, while</p></li>
 <li><p>Instructions de contrôle de boucle – break, continue, pass</p></li>
+<li><p>Indentation</p></li>
 </ol>
 <p>Référence:</p>
 <ul class="simple">
 <li><p>IBM Congnitive Class - Intro to Python (<a class="github reference external" href="https://github.com/computationalcore/introduction-to-python">computationalcore/introduction-to-python</a>)</p></li>
 <li><p>CUSP UCSL bootcamp 2017 (<a class="github reference external" href="https://github.com/Mohitsharma44/ucsl17">Mohitsharma44/ucsl17</a>)</p></li>
 </ul>
-<section id="indentation">
-<h2><span class="section-number">2.2.1.1. </span>Indentation<a class="headerlink" href="#indentation" title="Permalink to this heading">#</a></h2>
-<p>Ajouter ….</p>
-</section>
 <section id="les-instructions-conditionnelles">
-<h2><span class="section-number">2.2.1.2. </span>Les instructions conditionnelles<a class="headerlink" href="#les-instructions-conditionnelles" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">2.2.1.1. </span>Les instructions conditionnelles<a class="headerlink" href="#les-instructions-conditionnelles" title="Permalink to this heading">#</a></h2>
 <p>Ici, nous combinons les opérateurs relationnels et les opérateurs logiques afin qu’un programme puisse avoir un flux d’informations différent en fonction de certaines conditions. En d’autres termes, certains extraits de code ne sont exécutés que si certaines conditions sont remplies.</p>
 <p>La logique des déclarations conditionnelles est simple. <code class="docutils literal notranslate"><span class="pre">if</span></code> -&gt; <code class="docutils literal notranslate"><span class="pre">condition</span> <span class="pre">remplie</span></code> -&gt; faire quelque chose. <code class="docutils literal notranslate"><span class="pre">si</span></code> -&gt; <code class="docutils literal notranslate"><span class="pre">condition</span> <span class="pre">non</span> <span class="pre">remplie</span></code> -&gt; faire autre chose.</p>
 <div class="cell docutils container">
@@ -602,7 +601,7 @@ Nombre élevé!
 </div>
 </section>
 <section id="instructions-de-boucle">
-<h2><span class="section-number">2.2.1.3. </span>Instructions de boucle<a class="headerlink" href="#instructions-de-boucle" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">2.2.1.2. </span>Instructions de boucle<a class="headerlink" href="#instructions-de-boucle" title="Permalink to this heading">#</a></h2>
 <p>Nous utilisons les instructions de boucle lorsque nous voulons exécuter plusieurs fois certaines instructions de code. Voici un exemple de cas où il serait approprié d’utiliser des instructions de boucle :</p>
 <ol class="arabic simple">
 <li><p>Nous avons plusieurs fichiers de données</p></li>
@@ -675,7 +674,7 @@ Nombre élevé!
 </div>
 </section>
 <section id="instructions-de-controle-de-boucle">
-<h2><span class="section-number">2.2.1.4. </span>Instructions de contrôle de boucle<a class="headerlink" href="#instructions-de-controle-de-boucle" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">2.2.1.3. </span>Instructions de contrôle de boucle<a class="headerlink" href="#instructions-de-controle-de-boucle" title="Permalink to this heading">#</a></h2>
 <p>Il arrive que l’on veuille faire dévier l’exécution d’une boucle de son comportement normal. Nous voulons peut-être quitter la boucle lorsque certaines conditions sont remplies pour gagner du temps. Nous pouvons aussi vouloir que la boucle saute du code si les données satisfont à certaines conditions.</p>
 <p>Deux instructions de contrôle sont très utiles dans ce cas : <code class="docutils literal notranslate"><span class="pre">break</span></code> et <code class="docutils literal notranslate"><span class="pre">continue</span></code>. Nous utiliserons une boucle <code class="docutils literal notranslate"><span class="pre">for</span></code> comme exemple :</p>
 <div class="cell docutils container">
@@ -749,6 +748,90 @@ Condition satisfaite
 </div>
 </div>
 </section>
+<section id="indentation">
+<h2><span class="section-number">2.2.1.4. </span>Indentation<a class="headerlink" href="#indentation" title="Permalink to this heading">#</a></h2>
+<p>L’indentation est un aspect fondamental de la programmation Python qui détermine la structure et le flux d’exécution de votre code. Contrairement à d’autres langages de programmation qui utilisent des accolades <code class="docutils literal notranslate"><span class="pre">{}</span></code> ou des mots-clés tels que <code class="docutils literal notranslate"><span class="pre">begin</span></code> et <code class="docutils literal notranslate"><span class="pre">end</span></code> pour définir des blocs de code, Python s’appuie sur l’indentation.</p>
+<p>Pourquoi l’indentation ?
+L’indentation rend le code plus lisible et assure une structure propre et cohérente. Elle permet également d’identifier visuellement la portée des instructions dans les structures de contrôle telles que les boucles et les conditionnelles.</p>
+<p>Règles de base :</p>
+<ol class="arabic simple">
+<li><p>Espaces, pas les tabulations:
+Utilisez des espaces pour l’indentation, pas des tabulations. Python est sensible au nombre d’espaces utilisés pour l’indentation, et le mélange de tabulations et d’espaces peut entraîner des erreurs.</p></li>
+<li><p>Indentation cohérente:
+Respectez le nombre d’espaces utilisés pour l’indentation dans l’ensemble de votre code. La convention courante est d’utiliser quatre espaces.</p></li>
+<li><p>Indentation dans les blocs:
+Toutes les instructions d’un bloc doivent être indentées de la même manière. Cela définit la portée du bloc.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Exemple d&#39;indentation correcte</span>
+<span class="k">if</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cette déclaration est à l&#39;intérieur du bloc if.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tout comme celle-ci.&quot;</span><span class="p">)</span>
+    
+<span class="c1"># Exemple d&#39;indentation incorrecte</span>
+<span class="k">if</span> <span class="kc">True</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cette déclaration a une indentation incohérente.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Celle-ci provoquera une erreur.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">9</span><span class="p">],</span> <span class="n">line</span> <span class="mi">9</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Celle-ci provoquera une erreur.&quot;</span><span class="p">)</span>
+    <span class="o">^</span>
+<span class="ne">IndentationError</span>: unexpected indent
+</pre></div>
+</div>
+</div>
+</div>
+<section id="structures-de-controle">
+<h3><span class="section-number">2.2.1.4.1. </span>Structures de contrôle :<a class="headerlink" href="#structures-de-controle" title="Permalink to this heading">#</a></h3>
+<p>Instructions if-else:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Indentez le code à l&#39;intérieur des blocs `if` et `else`.
+</pre></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x est supérieur à 5&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x n&#39;est pas supérieur à 5&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Boucles for :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Indentez le code à l&#39;intérieur du bloc de la boucle for.
+</pre></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Itération :&quot;</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Boucles while :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Indentez le code à l&#39;intérieur du bloc de la boucle while.
+</pre></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">compte</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">compte</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Compte :&quot;</span><span class="p">,</span> <span class="n">compte</span><span class="p">)</span>
+    <span class="n">compte</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Comprendre et suivre les bonnes pratiques d’indentation est essentiel pour écrire un code Python propre et lisible. Cela aide à éviter les erreurs de syntaxe et contribue à la maintenabilité globale de vos programmes.</p>
+<p>N’hésitez pas à expérimenter avec ces exemples dans votre environnement Python pour obtenir une expérience pratique de l’indentation !</p>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -814,10 +897,13 @@ Condition satisfaite
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">2.2.1.1. Indentation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#les-instructions-conditionnelles">2.2.1.2. Les instructions conditionnelles</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions-de-boucle">2.2.1.3. Instructions de boucle</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions-de-controle-de-boucle">2.2.1.4. Instructions de contrôle de boucle</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#les-instructions-conditionnelles">2.2.1.1. Les instructions conditionnelles</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions-de-boucle">2.2.1.2. Instructions de boucle</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions-de-controle-de-boucle">2.2.1.3. Instructions de contrôle de boucle</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">2.2.1.4. Indentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structures-de-controle">2.2.1.4.1. Structures de contrôle :</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
