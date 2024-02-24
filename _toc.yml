@@ -7,6 +7,8 @@ parts:
 - caption: Partie 1 - géoinformatique I
   numbered: true
   chapters:
+    - file: Geoinformatique_I/00_Running_Python_Scripts_fr.md
+      title: Exécution des scripts Python
     - file: Geoinformatique_I/Carto/Intro_Carto/intro_carto.ipynb
       title: Cartographie
       sections:
