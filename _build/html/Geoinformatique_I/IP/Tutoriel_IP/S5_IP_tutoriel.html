@@ -527,11 +527,22 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#methodes-magiques-dunder">3.5.1.1.2. Méthodes magiques / Dunder</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#controle-des-versions">3.5.1.2. Contrôle des versions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#controle-des-versions">3.5.1.2. Contrôle des versions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#initialisation-d-un-repertoire-git">3.5.1.2.1. Initialisation d’un Répertoire Git</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ajout-de-fichiers-au-suivi-de-git">3.5.1.2.2. Ajout de fichiers au suivi de Git</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#consultation-de-l-histoire-du-projet">3.5.1.2.3. Consultation de l’histoire du projet</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modification-de-fichier-et-creation-de-nouveaux-commits">3.5.1.2.4. Modification de fichier et création de Nouveaux commits</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#branches-et-fusion-merge">3.5.1.2.5. Branches et fusion (merge)</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assertion">3.5.1.3. Assertion</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exception">3.5.1.4. Exception</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debogage">3.5.1.5. Débogage</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unit-testing">3.5.1.6. Unit Testing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unit-testing">3.5.1.4. Unit Testing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exception">3.5.1.5. Exception</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debogage">3.5.1.6. Débogage</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activation-du-debogueur">3.5.1.6.1. Activation du Débogueur</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#execution-avec-le-mode-interactif">3.5.1.6.2. Exécution avec le Mode Intéractif</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -584,7 +595,7 @@ aux fonctions intégrées (<code class="docutils literal notranslate"><span clas
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;__main__.Hurricane object at 0x7fd1471fdf70&gt; florence
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;__main__.Hurricane object at 0x7fbc379fdd30&gt; florence
 </pre></div>
 </div>
 </div>
@@ -614,7 +625,7 @@ aux fonctions intégrées (<code class="docutils literal notranslate"><span clas
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;__main__.Hurricane object at 0x7fd1472cce80&gt; FLORENCE
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;__main__.Hurricane object at 0x7fbc37ac6e80&gt; FLORENCE
 </pre></div>
 </div>
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
@@ -699,18 +710,399 @@ aux fonctions intégrées (<code class="docutils literal notranslate"><span clas
 </section>
 <section id="controle-des-versions">
 <h2><span class="section-number">3.5.1.2. </span>Contrôle des versions<a class="headerlink" href="#controle-des-versions" title="Permalink to this heading">#</a></h2>
+<p>Le contrôle des versions est une pratique essentielle dans le développement logiciel. Git est un systêm de contrôle de version distribué qui permet de suivre les modifications apportées à votre code.</p>
+<section id="initialisation-d-un-repertoire-git">
+<h3><span class="section-number">3.5.1.2.1. </span>Initialisation d’un Répertoire Git<a class="headerlink" href="#initialisation-d-un-repertoire-git" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ouvrez votre terminal et naviguez vers le répertoire de votre projet</span>
+<span class="n">cd</span> <span class="n">chemin</span><span class="o">/</span><span class="n">vers</span><span class="o">/</span><span class="n">votre</span><span class="o">/</span><span class="n">projet</span>
+
+<span class="c1"># Initialisez un nouveau référentiel Git dans le répertoire</span>
+<span class="n">git</span> <span class="n">init</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="ajout-de-fichiers-au-suivi-de-git">
+<h3><span class="section-number">3.5.1.2.2. </span>Ajout de fichiers au suivi de Git<a class="headerlink" href="#ajout-de-fichiers-au-suivi-de-git" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Créez quelques fichiers dans votre projet</span>
+<span class="n">touch</span> <span class="n">fichier1</span><span class="o">.</span><span class="n">py</span> <span class="n">fichier2</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="c1"># Ajoutez les fichiers à l&#39;index (zone de préparation)</span>
+<span class="n">git</span> <span class="n">add</span> <span class="n">fichier1</span><span class="o">.</span><span class="n">py</span> <span class="n">fichier2</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="c1"># Validez les changements en créant un commit</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;Premier commit, ajout de fichier1.py et fichier2.txt&quot;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="consultation-de-l-histoire-du-projet">
+<h3><span class="section-number">3.5.1.2.3. </span>Consultation de l’histoire du projet<a class="headerlink" href="#consultation-de-l-histoire-du-projet" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Affichez l&#39;historique des commits</span>
+<span class="n">git</span> <span class="n">log</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="modification-de-fichier-et-creation-de-nouveaux-commits">
+<h3><span class="section-number">3.5.1.2.4. </span>Modification de fichier et création de Nouveaux commits<a class="headerlink" href="#modification-de-fichier-et-creation-de-nouveaux-commits" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Modifiez fichier1.py et ajoutez un nouveau fichier fichier3.py</span>
+<span class="n">echo</span> <span class="s2">&quot;print(&#39;Hello, Git!&#39;)&quot;</span> <span class="o">&gt;</span> <span class="n">fichier1</span><span class="o">.</span><span class="n">py</span>
+<span class="n">touch</span> <span class="n">fichier3</span><span class="o">.</span><span class="n">py</span>
+
+<span class="c1"># Ajoutez les modifications à l&#39;index</span>
+<span class="n">git</span> <span class="n">add</span> <span class="n">fichier1</span><span class="o">.</span><span class="n">py</span> <span class="n">fichier3</span><span class="o">.</span><span class="n">py</span>
+
+<span class="c1"># Validez les changements avec un nouveau commit</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;Modification de fichier1.py et ajout de fichier3.py&quot;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="branches-et-fusion-merge">
+<h3><span class="section-number">3.5.1.2.5. </span>Branches et fusion (merge)<a class="headerlink" href="#branches-et-fusion-merge" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Créez une nouvelle branche</span>
+<span class="n">git</span> <span class="n">branch</span> <span class="n">nouvelle_fonctionnalite</span>
+
+<span class="c1"># Changez de branche</span>
+<span class="n">git</span> <span class="n">checkout</span> <span class="n">nouvelle_fonctionnalite</span>
+
+<span class="c1"># Effectuez des modifications et validez les changements</span>
+<span class="n">echo</span> <span class="s2">&quot;print(&#39;Nouvelle fonctionnalité ajoutée&#39;)&quot;</span> <span class="o">&gt;</span> <span class="n">nouvelle_fonctionnalite</span><span class="o">.</span><span class="n">py</span>
+<span class="n">git</span> <span class="n">add</span> <span class="n">nouvelle_fonctionnalite</span><span class="o">.</span><span class="n">py</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;Ajout de la nouvelle fonctionnalité&quot;</span>
+
+<span class="c1"># Revenez à la branche principale (master)</span>
+<span class="n">git</span> <span class="n">checkout</span> <span class="n">master</span>
+
+<span class="c1"># Fusionnez la nouvelle fonctionnalité dans la branche principale</span>
+<span class="n">git</span> <span class="n">merge</span> <span class="n">nouvelle_fonctionnalite</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Il existe de nombreuses autres fonctionnalités Git à explorer, mais ces concepts de base vous donneront une base solide pour travailler avec le contrôle des versions dans vos projets Python</p>
+</section>
 </section>
 <section id="assertion">
 <h2><span class="section-number">3.5.1.3. </span>Assertion<a class="headerlink" href="#assertion" title="Permalink to this heading">#</a></h2>
-</section>
-<section id="exception">
-<h2><span class="section-number">3.5.1.4. </span>Exception<a class="headerlink" href="#exception" title="Permalink to this heading">#</a></h2>
-</section>
-<section id="debogage">
-<h2><span class="section-number">3.5.1.5. </span>Débogage<a class="headerlink" href="#debogage" title="Permalink to this heading">#</a></h2>
+<p>Les assertions en Python sont utilisée pour vérifier si une condition spécifiée est vraie. Si l’assertion est vraie, le programme continue normalement. Sinon, une exception <code class="docutils literal notranslate"><span class="pre">AssertionError</span></code>est levée avec un message d’eurreur facultatif.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># &#39;a&#39; est égale à 5. Si la condition est fausse, une exception &quot;AssertionErreur&quot; est affichée avec le message spécifié.</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="k">assert</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;La valeur de &#39;a&#39; devrait être 5&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;La condition est vraie, le programme continue.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Assertion est aussi possible avec les fontions</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Assertion vérifie si le diviseur (&#39;b&#39;) n&#39;est pas égal à zéro avant d&#39;effectuer la division.</span>
+<span class="c1"># Si &#39;b&#39; est zéro, une exception &quot;AssertioError&quot; est affichée.</span>
+
+<span class="k">def</span> <span class="nf">diviser</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="n">b</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;Division par zéro&quot;</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">/</span> <span class="n">b</span>
+
+<span class="n">resultat</span> <span class="o">=</span> <span class="n">diviser</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Le résultat de la division est :&quot;</span><span class="p">,</span> <span class="n">resultat</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Les assertions sont utilisées pendant le développement et les tests, mais elles peuvent être désactivées en mode production pour améliorer les performances.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Le module __debug__ est utilisé pour vérifier si les assertions sont activées. </span>
+<span class="c1"># En mode production (lorsque le script est exécuté avec l&#39;option -O), les assertions sont désactivées.</span>
+<span class="k">def</span> <span class="nf">fonction_critique</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;La valeur de &#39;x&#39; doit être positive&quot;</span>
+    <span class="c1"># Le reste du code critique ici</span>
+
+<span class="c1"># Désactiver les assertions en mode production</span>
+<span class="c1"># python -O script.py</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Les assertions en Python sont un moyen puissant de vérifier les conditions et de s’assurer que votre code fonctionne comme prévu. Cependant, elles ne devraient être utilisées que pour des conditions qui ne devraient jamais se produire normalement.</p>
 </section>
 <section id="unit-testing">
-<h2><span class="section-number">3.5.1.6. </span>Unit Testing<a class="headerlink" href="#unit-testing" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">3.5.1.4. </span>Unit Testing<a class="headerlink" href="#unit-testing" title="Permalink to this heading">#</a></h2>
+<p>Les tests unitaires sont un moyen essentiel de s’assurer que chaque composant individuel d’un programme fonctionne correctement. En Python, le module <code class="docutils literal notranslate"><span class="pre">unittest</span></code> offre un cadre robuste pour écrire et exécuter des tests unitaires.</p>
+<p>Création d’un Fichier à Tester
+Créez un fichier Python <a class="reference external" href="http://calculatrice.py">calculatrice.py</a> contenant des fonctions simples à tester.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># calculatrice.py</span>
+
+<span class="k">def</span> <span class="nf">addition</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+
+<span class="k">def</span> <span class="nf">soustraction</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span>
+
+<span class="k">def</span> <span class="nf">multiplication</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+
+<span class="k">def</span> <span class="nf">division</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Division par zéro&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">/</span> <span class="n">b</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Écriture des Tests Unitaires
+Créez un fichier de tests test_calculatrice.py pour tester les fonctions de la calculatrice.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># test_calculatrice.py</span>
+<span class="kn">import</span> <span class="nn">unittest</span>
+<span class="kn">from</span> <span class="nn">calculatrice</span> <span class="kn">import</span> <span class="n">addition</span><span class="p">,</span> <span class="n">soustraction</span><span class="p">,</span> <span class="n">multiplication</span><span class="p">,</span> <span class="n">division</span>
+
+<span class="c1"># Chaque méthode dans cette classe qui commence par test_ sera considérée comme un test unitaire</span>
+<span class="c1"># Nous utilisons les méthodes de l&#39;objet self telles que assertEqual, </span>
+<span class="c1"># assertRaises, etc., pour effectuer les vérifications.</span>
+<span class="k">class</span> <span class="nc">TestCalculatrice</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">test_addition</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">addition</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="mi">7</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">addition</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">addition</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_soustraction</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">soustraction</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="mi">3</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">soustraction</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">soustraction</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_multiplication</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">multiplication</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="mi">6</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">multiplication</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">multiplication</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">),</span> <span class="mi">4</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_division</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">division</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">division</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="mf">2.5</span><span class="p">)</span>
+        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">assertRaises</span><span class="p">(</span><span class="ne">ValueError</span><span class="p">):</span>
+            <span class="n">division</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Assertion avec Tests unitaires pour vérifier si le code se comporte comme prévu.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># assertion est utilisée comme un test unitaire pour vérifier si la fonction addition fonctionne correctement.</span>
+<span class="k">def</span> <span class="nf">addition</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+
+<span class="c1"># Test unitaire</span>
+<span class="k">assert</span> <span class="n">addition</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span> <span class="o">==</span> <span class="mi">7</span><span class="p">,</span> <span class="s2">&quot;Test échoué : addition(3, 4) devrait être égal à 7&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Test réussi : addition(3, 4) est égal à 7&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Exécution des Tests
+Pour exécuter les tests, exécutez le fichier test_calculatrice.py :</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">test_calculatrice</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Vous devriez voir une sortie indiquant si les tests ont réussi ou échoué. Si tout est correct, vous verrez quelque chose comme :</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">.....</span>
+<span class="o">----------------------------------------------------------------------</span>
+<span class="n">Ran</span> <span class="mi">5</span> <span class="n">tests</span> <span class="ow">in</span> <span class="mf">0.001</span><span class="n">s</span>
+
+<span class="n">OK</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Les tests unitaires avec unittest offrent un moyen efficace de garantir que vos fonctions et classes fonctionnent correctement. Il est recommandé d’écrire des tests unitaires pour chaque composant significatif de votre code afin de faciliter la détection précoce des erreurs et d’améliorer la qualité de votre logiciel.</p>
+</section>
+<section id="exception">
+<h2><span class="section-number">3.5.1.5. </span>Exception<a class="headerlink" href="#exception" title="Permalink to this heading">#</a></h2>
+<p>Les exceptions en Python sont des événements qui se produisent pendant l’exécution d’un programme et qui perturbent le flux normal d’instructions. Les exceptions sont généralement utilisées pour gérer des erreurs et des situations exceptionnelles.</p>
+<p>Structure d’une Exception</p>
+<p>Les exceptions sont généralement constituées d’un type d’exception et éventuellement d’un message d’erreur. Voici comment cela ressemble :</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="c1"># Bloc de code où une exception pourrait se produire</span>
+    <span class="c1"># ...</span>
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Ceci est un message d&#39;erreur&quot;</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="c1"># Gestion de l&#39;exception</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Une exception de type </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2"> s&#39;est produite : </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="c1"># Bloc exécuté qu&#39;il y ait eu ou non une exception</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Le bloc finally est toujours exécuté&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Types Courants d’Exceptions
+ValueError: Erreur de valeur.
+TypeError: Erreur de type.
+ZeroDivisionError: Tentative de division par zéro.
+FileNotFoundError: Fichier non trouvé.
+IndexError: Index hors de la plage valide.</p>
+<p>Utilisation du Bloc <code class="docutils literal notranslate"><span class="pre">try...except</span></code></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Exemple 1</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">nombre</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Entrez un nombre : &quot;</span><span class="p">))</span>
+    <span class="n">resultat</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">/</span> <span class="n">nombre</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Le résultat est :&quot;</span><span class="p">,</span> <span class="n">resultat</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erreur : Vous devez entrer un nombre entier.&quot;</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">ZeroDivisionError</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erreur : Division par zéro.&quot;</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ce bloc est toujours exécuté, qu&#39;il y ait eu une exception ou non.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Utilisation du Bloc <code class="docutils literal notranslate"><span class="pre">try...except...else</span></code></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Exemple 2</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">fichier</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;exemple.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erreur : Le fichier n&#39;a pas été trouvé.&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">contenu</span> <span class="o">=</span> <span class="n">fichier</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Contenu du fichier :&quot;</span><span class="p">,</span> <span class="n">contenu</span><span class="p">)</span>
+    <span class="n">fichier</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Utilisation du Bloc <code class="docutils literal notranslate"><span class="pre">try...except...else...finally</span></code></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Exemple 3</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">fichier</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;exemple.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erreur : Le fichier n&#39;a pas été trouvé.&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">contenu</span> <span class="o">=</span> <span class="n">fichier</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Contenu du fichier :&quot;</span><span class="p">,</span> <span class="n">contenu</span><span class="p">)</span>
+    <span class="n">fichier</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ce bloc est toujours exécuté, qu&#39;il y ait eu une exception ou non.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Utilisation de la Clause raise pour Lever une Exception</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Exemple 4</span>
+<span class="k">def</span> <span class="nf">diviser</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Erreur : Division par zéro.&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">/</span> <span class="n">b</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">resultat</span> <span class="o">=</span> <span class="n">diviser</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Une exception de type </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2"> s&#39;est produite : </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Les exceptions en Python offrent un moyen de gérer les erreurs et les situations exceptionnelles de manière élégante. Il est important de les utiliser pour rendre votre code robuste et faciliter la détection et la gestion des erreurs.</p>
+</section>
+<section id="debogage">
+<h2><span class="section-number">3.5.1.6. </span>Débogage<a class="headerlink" href="#debogage" title="Permalink to this heading">#</a></h2>
+<p>Le débogage est un processus essentiel lors du développement de logiciels. En Python, vous pouvez utiliser des outils intégrés tels que le module <code class="docutils literal notranslate"><span class="pre">pdb</span></code> pour déboguer votre code et comprendre ce qui se passe lors de l’exécution.</p>
+<p>Utilisation du Module pdb</p>
+<p>Le module <code class="docutils literal notranslate"><span class="pre">pdb</span></code> est un débogueur intégré à Python qui permet d’arrêter l’exécution du programme à un point donné et d’inspecter l’état du programme à ce moment-là.</p>
+<section id="activation-du-debogueur">
+<h3><span class="section-number">3.5.1.6.1. </span>Activation du Débogueur<a class="headerlink" href="#activation-du-debogueur" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Le débogueur sera activé à la ligne contenant pdb.set_trace(). </span>
+<span class="c1"># Vous pouvez utiliser des commandes telles que n (next), c (continue), </span>
+<span class="c1"># p (print) pour naviguer et inspecter les variables.</span>
+
+<span class="kn">import</span> <span class="nn">pdb</span>
+
+<span class="k">def</span> <span class="nf">exemple</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="n">z</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+    <span class="n">pdb</span><span class="o">.</span><span class="n">set_trace</span><span class="p">()</span>  <span class="c1"># Activation du débogueur</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Le résultat est :&quot;</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
+
+<span class="n">exemple</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="execution-avec-le-mode-interactif">
+<h3><span class="section-number">3.5.1.6.2. </span>Exécution avec le Mode Intéractif<a class="headerlink" href="#execution-avec-le-mode-interactif" title="Permalink to this heading">#</a></h3>
+<p>Lorsque le débogueur est activé, vous entrez dans un mode intéractif où vous pouvez exécuter des commandes. Par exemple :</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">n</span></code> : Exécuter la ligne suivante.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">c</span></code> : Continuer l’exécution jusqu’à la fin ou jusqu’à la prochaine pause.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">p</span></code> variable : Afficher la valeur d’une variable.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">q</span></code> : Quitter le débogueur.</p></li>
+</ul>
+<p>Utilisation de breakpoint (Python 3.7+)</p>
+<p>À partir de Python 3.7, vous pouvez utiliser la fonction breakpoint() pour activer le débogueur de manière plus concise.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Le code s&#39;arrêtera automatiquement à l&#39;endroit où breakpoint() est appelé.</span>
+<span class="k">def</span> <span class="nf">exemple</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="n">z</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+    <span class="nb">breakpoint</span><span class="p">()</span>  <span class="c1"># Activation du débogueur</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Le résultat est :&quot;</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
+
+<span class="n">exemple</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Utilisation d’un Environnement de Développement Intégré (IDE)</p>
+<p>La plupart des environnements de développement intégrés (IDE) fournissent des outils de débogage visuels. Par exemple, dans Visual Studio Code, vous pouvez définir des points d’arrêt, inspecter les variables en cours d’exécution et utiliser des fonctionnalités de débogage avancées.</p>
+<p>Le débogage en Python est une compétence essentielle pour identifier et résoudre les erreurs dans votre code. Que vous utilisiez le module <code class="docutils literal notranslate"><span class="pre">pdb</span></code> en mode console ou des fonctionnalités de débogage visuel dans un IDE, le débogage vous aidera à comprendre le comportement de votre programme et à corriger les problèmes.</p>
+</section>
 </section>
 </section>
 
@@ -782,11 +1174,22 @@ aux fonctions intégrées (<code class="docutils literal notranslate"><span clas
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#methodes-magiques-dunder">3.5.1.1.2. Méthodes magiques / Dunder</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#controle-des-versions">3.5.1.2. Contrôle des versions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#controle-des-versions">3.5.1.2. Contrôle des versions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#initialisation-d-un-repertoire-git">3.5.1.2.1. Initialisation d’un Répertoire Git</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ajout-de-fichiers-au-suivi-de-git">3.5.1.2.2. Ajout de fichiers au suivi de Git</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#consultation-de-l-histoire-du-projet">3.5.1.2.3. Consultation de l’histoire du projet</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modification-de-fichier-et-creation-de-nouveaux-commits">3.5.1.2.4. Modification de fichier et création de Nouveaux commits</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#branches-et-fusion-merge">3.5.1.2.5. Branches et fusion (merge)</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assertion">3.5.1.3. Assertion</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exception">3.5.1.4. Exception</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debogage">3.5.1.5. Débogage</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unit-testing">3.5.1.6. Unit Testing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unit-testing">3.5.1.4. Unit Testing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exception">3.5.1.5. Exception</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debogage">3.5.1.6. Débogage</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activation-du-debogueur">3.5.1.6.1. Activation du Débogueur</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#execution-avec-le-mode-interactif">3.5.1.6.2. Exécution avec le Mode Intéractif</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
