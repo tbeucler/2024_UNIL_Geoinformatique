@@ -5,7 +5,7 @@ Ci-dessous nous trouvons une série de cartes topographiques et thématiques dif
 
 ## Carte topographique suisse au 1:25'000
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/carte-topo-25k.jpg)  
+![](assets/carte-topo-25k.jpg)  
 <small>© Swisstopo</small>
 
 C'est une carte topographique typique. Les cartes topographiques recensent les éléments visibles sur le terrain de manière aussi précise et fiable possible. En plus, on y retrouve des toponymes. 
@@ -15,7 +15,7 @@ Notez qu'une carte topographique n’a généralement pas de restrictions de tra
 
 ## Carte géologique suisse au 1:500'000
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/carte-geol-500k.jpg)  
+![](assets/carte-geol-500k.jpg)  
 <small>© Swisstopo</small>
 
 Une carte géologique comme celle-ci, ou les cartes tectoniques, et autres cartes similaires sont des cartes thématiques où la localisation précise est importante. Pour cette raison, une carte topographique est généralement utilisée comme fond. Ceci donne une carte très chargée qui contient beaucoup d'informations, mais qui n'est pas nécessairement facile à lire.
@@ -23,7 +23,7 @@ Une carte géologique comme celle-ci, ou les cartes tectoniques, et autres carte
 
 ## Carte choroplèthe
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/choroplethe-demo-ms.png)
+![](assets/choroplethe-demo-ms.png)
 
 Ceci est une carte thématique typique représentant l'évolution de la population entre 1850 et 1880. Il s'agit d'une **carte choroplèthe**; c'est une carte où les polygones sont remplis par une couleur.
 
@@ -34,7 +34,7 @@ Cette carte est tout de même un peu spéciale en raison des formes atypiques de
 
 ## Carte de flux
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/flux-pendulaires.png)
+![](assets/flux-pendulaires.png)
 
 Il s'agit ici d'une autre carte thématique qui représente les flux pendulaires. Il s'agit d'une **carte de flux** où l'épaisseur des flèches correspond au volume du flux. En plus, sur cette carte, les flux sont colorés pour montrer la proportion de pendulaires qui utilisent la voiture pour se rendre au travail. 
 
@@ -49,7 +49,7 @@ Un autre détail intéressant est l'utilisation des **coordonnées aux bordures*
 
 ## Carte en symboles proportionnels colorés
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/symb-prop-col-pendulaires-internes.png)
+![](assets/symb-prop-col-pendulaires-internes.png)
 
 Cette carte thématique reprend le même fond que la carte de flux d’avant. À la place des flux nous avons maintenant des cercles. Il s’agit ici d’une carte thématique qu’on appelle **« carte en symboles proportionnels colorés »**. 
 
@@ -62,7 +62,7 @@ Car cette carte montre deux quantités (le nombre et la proportion de pendulaire
 
 ## Carte en anamorphose
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/anamorphose-langue.png)
+![](assets/anamorphose-langue.png)
 
 Cette dernière carte est également une carte thématique. Elle représente la pratique d'une autre langue nationale au travail. Donc dans les régions francophones, il s'agit du nombre et la proportion de personnes qui utilisent soit l'allemand, l'italien ou le romanche au travail.
 

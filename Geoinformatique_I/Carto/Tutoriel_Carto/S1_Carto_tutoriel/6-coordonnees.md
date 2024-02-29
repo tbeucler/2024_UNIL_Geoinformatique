@@ -15,7 +15,7 @@ Il est possible de passer d'un système de coordonnées géographique à un syst
 
 La forme réelle de la Terre est appelée **géoïde**. La forme géométrique régulière la plus proche au géoïde est un **ellipsoïde**. Cependant, le géoïde présente quelques déviations par rapport à un ellipsoïde. La figure ci-dessous est une image où ces différences sont exagérées, mais elle nous permet de nous faire une idée de la forme réelle de la Terre:
 
-![Géoïde](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/geoide_transp.png)  
+![Géoïde](assets/geoide_transp.png)  
 <small>Source: ESA</small>
 
 L'ellipsoïde qui permet d'approcher la forme du géoïde peut prendre plusieurs formes, selon l'endroit où il doit être le plus précis possible. Nous avons donc plusieurs choix d'ellipsoïdes.
@@ -28,7 +28,7 @@ Par contre, une fois que nous avons sélectionné un ellipsoïde de notre choix,
     <p>Un *parallèle* est un cercle qui est parallèle à l'équateur, et qui est donc en conséquence perpendiculaire à l'axe de rotation.</p>
   </div>
   <div style="flex: 1; padding-left: 15px;">
-    <img src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/latitude.png">
+    <img src="assets/latitude.png">
   </div>
 </div>
 
@@ -40,7 +40,7 @@ Par contre, une fois que nous avons sélectionné un ellipsoïde de notre choix,
     <p>Un des méridiens, celui qui passe par Greenwich à Londres, est considéré comme étant le méridien primaire (<i>prime meridian</i> en anglais).</p>
   </div>
   <div style="flex: 1; padding-left: 15px;">
-    <img src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/longitude.png">
+    <img src="assets/longitude.png">
   </div>
 </div>
 
@@ -56,7 +56,7 @@ Par contre, une fois que nous avons sélectionné un ellipsoïde de notre choix,
     <p>Ces angles sont évidemment mesurés en degrés.</p>
   </div>
   <div style="flex: 1; padding-left: 15px;">
-    <img src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/lat_long.gif">
+    <img src="assets/lat_long.gif">
   </div>
 </div>
 
@@ -73,7 +73,7 @@ Nous n'allons pas voir ici les détails sur comment une telle projection est fai
 
 Le système de coordonnées se base sur deux axes, l'une dirigé du Sud vers le Nord, et l'autre de l'Ouest à l'Est. Le croisement entre les deux axes est l'origine. Il s'agit donc d'un système de coordonnées comme celui qui est utilisé en mathématique. La figure ci-dessous montre l'exemple du système de coordonnées officiel de la Suisse:
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/scp_ch_ti.png)  
+![](assets/scp_ch_ti.png)  
 <small>Source: <a href="https://www.swisstopo.admin.ch/fr/connaissances-faits/mensuration-geodesie/coordonnees.html">Swisstopo</a></small>
 
 Les systèmes de coordonnées projetés possèdent souvent une *«fausse origine»*, c'est-à-dire l'origine est décalée artificiellement d'une valeur arbitraire vers le Nord (*«false northing»*) respectivement vers l'Est (*«false easting»*). Par exemple dans le cas du système de coordonnées suisse, l'origine se trouve à Berne et possède la valeur de 2'600'000 pour la coordonnée Est (x), et la valeur de 1'200'000 pour la coordonnées Nord (y). L'unité des coordonneés sont en l'occurence des mètres.
