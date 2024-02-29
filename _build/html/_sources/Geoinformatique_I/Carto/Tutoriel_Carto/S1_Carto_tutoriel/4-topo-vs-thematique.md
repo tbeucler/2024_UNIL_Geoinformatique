@@ -6,7 +6,7 @@ Nous pouvons distinguer deux grandes catégories de cartes, les cartes topograph
 
 Voici un extrait de la carte topographique nationale de Suisse:
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/topo.png)  
+![](assets/topo.png)  
 <small>Données © Swisstopo, capture d'écran du site [map.geo.admin.ch](https://map.geo.admin.ch)</small>
 
 Une carte topographique se caractérise par sa **fonction de repérage qui est essentielle**. Une grande précision est donc nécessaire au niveau du système de coordonnées et de la projection (nous définissons plus tard ces termes).
@@ -24,10 +24,10 @@ La carte thématique est plus spécifique qu'une carte topographique, elle est d
 
 Le thème d'une carte thématique ressort souvent du **domaine de l'invisible interprété**. Voici deux exemples de cartes thématiques:
 
-<img style="border: 1px solid #ccc;" src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/carte-geologique.gif" alt="Carte géologique de la Suisse" /><br>
+<img style="border: 1px solid #ccc;" src="assets/carte-geologique.gif" alt="Carte géologique de la Suisse" /><br>
 <small>Source: Swisstopo / <a href="https://www.nagra.ch/fr/geologiedelasuisse.htm">www.nagra.ch/fr/geologiedelasuisse.htm</a></small>
 
-<img style="border: 1px solid #ccc;" src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/vieillissement-ch.gif" alt="Carte du vieillissement en Suisse, en 2000" /><br>
+<img style="border: 1px solid #ccc;" src="assets/vieillissement-ch.gif" alt="Carte du vieillissement en Suisse, en 2000" /><br>
 <small>Source: Office fédéral de la statistique</small>
 
 Dans les deux cas, le thème de la carte nécessite une récolte de données importante. Le contenu de la carte ne peut typiquement pas être construit en consultant une photo aérienne.

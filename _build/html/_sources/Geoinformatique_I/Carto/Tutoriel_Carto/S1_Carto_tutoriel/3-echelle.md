@@ -18,7 +18,7 @@ Une carte au 1:100'000 sera ainsi une **carte à petite échelle**, tandis qu'un
 
 L'échelle est une propriété importante de chaque carte, et en conséquence, elle doit généralement être indiquée sur la carte. On peut faire ceci à l'aide d'une échelle numérique (ci-dessous à gauche) ou une échelle graphique (à droite):
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/echelle-numerique+graphique.png)
+![](assets/echelle-numerique+graphique.png)
 
 Une échelle numérique indique le rapport «1:25'000». Les cartes topographiques imprimées possèdent en principe toujours une échelle numérique précise, car elle est très importante pour évaluer les distances sur le terrain.
 
@@ -41,7 +41,7 @@ En principe, chaque carte doit avoir une échelle claire. Cependant, il y a quel
 
 Parfois, sur une carte à très petite échelle, il se peut que l'échelle n'est pas la même à chaque endroit sur la carte. Un exemple d'un tel cas est la carte suivante, qui est une carte du monde avec une projection de Mercator:
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/carte-monde-relief-mercator.jpg)  
+![](assets/carte-monde-relief-mercator.jpg)  
 <small>Source: [www.onestopmap.com](https://www.onestopmap.com/world-maps/world-mercator-europe-africa-centered-635/)</small>
 
 En termes cartographiques, le choix de la projection de Mercator pour une carte du monde est un choix terrible. Quant à l'échelle cartographique, en raison de la déformation énorme à proximité des pôles, il n'est pas possible d'indiquer une échelle correcte pour la totalité de la carte. Il faudrait utiliser une double stratégie pour palier à ce problème:
@@ -53,7 +53,7 @@ Donc même dans ce cas, on ajoutera une échelle, mais complété d'un commentai
 
 Il y a cependant certaines cartes où on ne peut pas ajouter d'échelle. Un exemple d'un tel cas est un plan schématique d'un réseau de transport, comme p.ex. la carte du métro de Londres:
 
-![](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/londontubemap.webp)  
+![](assets/londontubemap.webp)  
 <small>Source: [printable-maps.blogspot.com](https://printable-maps.blogspot.com/2015/04/map-of-london-tube.html)</small>
 
 Ce genre de carte est construite de sorte à complètement exagérer les régions denses (le centre de Londres) et de condenser les régions périphériques. Une échelle ne fait donc absolument pas de sens sur une telle carte.
@@ -63,6 +63,6 @@ Ce genre de carte est construite de sorte à complètement exagérer les région
 
 Pour connaître la distance à vol d'oiseau entre deux endroits, il ne suffit pas de considérer uniquement l'échelle, au moins en régions de montagne. Sur la carte, on pourra trouver la distance entre deux lieux *au plat*. Par contre, avec une différence d'altitude entre les deux lieux, la distance à vol d'oiseau sera un peu plus longue que la distance mesurée sur la carte. Généralement, cette différence est minime, mais elle peut être calculée facilement à l'aide du théorème de Pythagore.
 
-![Distance à vol d'oiseau avec relief](Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/distance-directe.svg)
+![Distance à vol d'oiseau avec relief](assets/distance-directe.svg)
 
 La figure ci-dessus montre un exemple où la distance mesurée sur la carte correspond à 12 km. Cette distance correspond à la droite AC. La distance à vol d'oiseau correspond à la droite AB. La droite BC est dans l'exemple 2400 m - 450 m = 1950 m, donc 1.95 km. Par la suite, une application simple du théorème de Pythagore donne le résultat (environ 12.157 km).

@@ -551,7 +551,7 @@ document.write(`
 <section id="echelle-numerique-versus-echelle-graphique">
 <h2><span class="section-number">2.1.4.2. </span>Échelle numérique versus échelle graphique<a class="headerlink" href="#echelle-numerique-versus-echelle-graphique" title="Permalink to this heading">#</a></h2>
 <p>L’échelle est une propriété importante de chaque carte, et en conséquence, elle doit généralement être indiquée sur la carte. On peut faire ceci à l’aide d’une échelle numérique (ci-dessous à gauche) ou une échelle graphique (à droite):</p>
-<p><img alt="" src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/echelle-numerique+graphique.png" /></p>
+<p><img alt="" src="../../../../_images/echelle-numerique+graphique.png" /></p>
 <p>Une échelle numérique indique le rapport «1:25’000». Les cartes topographiques imprimées possèdent en principe toujours une échelle numérique précise, car elle est très importante pour évaluer les distances sur le terrain.</p>
 <p>L’avantage de l’échelle numérique est qu’elle est très précise et qu’elle facilite la détermination des distances sur la carte. En effet, il suffit de mesurer la distance avec une règle et ensuite appliquer le facteur de multiplication de l’échelle.</p>
 <p>Le désavantage de l’échelle numérique est qu’elle nécessite une grande précision au moment de l’impression. En effet, même si on imprime un fichier PDF en format A4, le logiciel appliquera souvent une mise à l’échelle de 95% ou similaire. Du coup, l’échelle n’est pas correcte et il y a le risque que les distances sont évaluées de manière incorrecte. Pour une carte digitale, une échelle numérique ne fait pas de sens du tout, car elle sera affichée sur différents écrans avec des tailles totalement différentes.</p>
@@ -564,7 +564,7 @@ document.write(`
 <h2><span class="section-number">2.1.4.3. </span>Quand omettre l’échelle?<a class="headerlink" href="#quand-omettre-l-echelle" title="Permalink to this heading">#</a></h2>
 <p>En principe, chaque carte doit avoir une échelle claire. Cependant, il y a quelques cas spéciaux:</p>
 <p>Parfois, sur une carte à très petite échelle, il se peut que l’échelle n’est pas la même à chaque endroit sur la carte. Un exemple d’un tel cas est la carte suivante, qui est une carte du monde avec une projection de Mercator:</p>
-<p><img alt="" src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/carte-monde-relief-mercator.jpg" /><br />
+<p><img alt="" src="../../../../_images/carte-monde-relief-mercator.jpg" /><br />
 <small>Source: <a class="reference external" href="https://www.onestopmap.com/world-maps/world-mercator-europe-africa-centered-635/">www.onestopmap.com</a></small></p>
 <p>En termes cartographiques, le choix de la projection de Mercator pour une carte du monde est un choix terrible. Quant à l’échelle cartographique, en raison de la déformation énorme à proximité des pôles, il n’est pas possible d’indiquer une échelle correcte pour la totalité de la carte. Il faudrait utiliser une double stratégie pour palier à ce problème:</p>
 <ol class="arabic simple">
@@ -573,14 +573,14 @@ document.write(`
 </ol>
 <p>Donc même dans ce cas, on ajoutera une échelle, mais complété d’un commentaire.</p>
 <p>Il y a cependant certaines cartes où on ne peut pas ajouter d’échelle. Un exemple d’un tel cas est un plan schématique d’un réseau de transport, comme p.ex. la carte du métro de Londres:</p>
-<p><img alt="" src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/londontubemap.webp" /><br />
+<p><img alt="" src="../../../../_images/londontubemap.webp" /><br />
 <small>Source: <a class="reference external" href="https://printable-maps.blogspot.com/2015/04/map-of-london-tube.html">printable-maps.blogspot.com</a></small></p>
 <p>Ce genre de carte est construite de sorte à complètement exagérer les régions denses (le centre de Londres) et de condenser les régions périphériques. Une échelle ne fait donc absolument pas de sens sur une telle carte.</p>
 </section>
 <section id="attention-au-relief">
 <h2><span class="section-number">2.1.4.4. </span>Attention au relief<a class="headerlink" href="#attention-au-relief" title="Permalink to this heading">#</a></h2>
 <p>Pour connaître la distance à vol d’oiseau entre deux endroits, il ne suffit pas de considérer uniquement l’échelle, au moins en régions de montagne. Sur la carte, on pourra trouver la distance entre deux lieux <em>au plat</em>. Par contre, avec une différence d’altitude entre les deux lieux, la distance à vol d’oiseau sera un peu plus longue que la distance mesurée sur la carte. Généralement, cette différence est minime, mais elle peut être calculée facilement à l’aide du théorème de Pythagore.</p>
-<p><img alt="Distance à vol d'oiseau avec relief" src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/distance-directe.svg" /></p>
+<p><img alt="Distance à vol d'oiseau avec relief" src="../../../../_images/distance-directe.svg" /></p>
 <p>La figure ci-dessus montre un exemple où la distance mesurée sur la carte correspond à 12 km. Cette distance correspond à la droite AC. La distance à vol d’oiseau correspond à la droite AB. La droite BC est dans l’exemple 2400 m - 450 m = 1950 m, donc 1.95 km. Par la suite, une application simple du théorème de Pythagore donne le résultat (environ 12.157 km).</p>
 </section>
 </section>

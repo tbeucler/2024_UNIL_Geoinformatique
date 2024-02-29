@@ -548,7 +548,7 @@ document.write(`
 <section id="systeme-de-coordonnees-geographique">
 <h2><span class="section-number">2.1.7.1. </span>Système de coordonnées géographique<a class="headerlink" href="#systeme-de-coordonnees-geographique" title="Permalink to this heading">#</a></h2>
 <p>La forme réelle de la Terre est appelée <strong>géoïde</strong>. La forme géométrique régulière la plus proche au géoïde est un <strong>ellipsoïde</strong>. Cependant, le géoïde présente quelques déviations par rapport à un ellipsoïde. La figure ci-dessous est une image où ces différences sont exagérées, mais elle nous permet de nous faire une idée de la forme réelle de la Terre:</p>
-<p><img alt="Géoïde" src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/geoide_transp.png" /><br />
+<p><img alt="Géoïde" src="../../../../_images/geoide_transp.png" /><br />
 <small>Source: ESA</small></p>
 <p>L’ellipsoïde qui permet d’approcher la forme du géoïde peut prendre plusieurs formes, selon l’endroit où il doit être le plus précis possible. Nous avons donc plusieurs choix d’ellipsoïdes.</p>
 <p>Par contre, une fois que nous avons sélectionné un ellipsoïde de notre choix, il est possible d’y superposer une grille permettant de créer un système de coordonnées. Il s’agit de la grille des méridiens et parallèles:</p>
@@ -558,7 +558,7 @@ document.write(`
     <p>Un *parallèle* est un cercle qui est parallèle à l'équateur, et qui est donc en conséquence perpendiculaire à l'axe de rotation.</p>
   </div>
   <div style="flex: 1; padding-left: 15px;">
-    <img src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/latitude.png">
+    <img src="assets/latitude.png">
   </div>
 </div>
 <hr />
@@ -568,7 +568,7 @@ document.write(`
     <p>Un des méridiens, celui qui passe par Greenwich à Londres, est considéré comme étant le méridien primaire (<i>prime meridian</i> en anglais).</p>
   </div>
   <div style="flex: 1; padding-left: 15px;">
-    <img src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/longitude.png">
+    <img src="assets/longitude.png">
   </div>
 </div>
 <hr/>
@@ -582,7 +582,7 @@ document.write(`
     <p>Ces angles sont évidemment mesurés en degrés.</p>
   </div>
   <div style="flex: 1; padding-left: 15px;">
-    <img src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/lat_long.gif">
+    <img src="assets/lat_long.gif">
   </div>
 </div>
 <p>Ce sont donc les méridiens et parallèles qui nous permettent de définir un <strong>système de coordonnées géographique</strong> pour <strong>tous les points qui se trouvent sur la surface terrestre</strong>.</p>
@@ -593,7 +593,7 @@ document.write(`
 <p>Pour représenter la surface terrestre (qui est en 3 dimensions) sur une carte en 2 dimensions, il faut trouver un moyen de passer de 3 dimensions à 2 dimensions. Cela se fait à l’aide d’une <strong>projection</strong>. Il y a plusieurs types de projections qui donnent à chaque fois un système de coordonnées projeté différent. Pour chaque système de coordonnées projeté, il y a à l’origine un système de coordonnées géographique.</p>
 <p>Nous n’allons pas voir ici les détails sur comment une telle projection est faite. Nous nous intéressons plutôt au résultat, c’est-à-dire à la carte en 2 dimensions, et le système de coordonnées associé.</p>
 <p>Le système de coordonnées se base sur deux axes, l’une dirigé du Sud vers le Nord, et l’autre de l’Ouest à l’Est. Le croisement entre les deux axes est l’origine. Il s’agit donc d’un système de coordonnées comme celui qui est utilisé en mathématique. La figure ci-dessous montre l’exemple du système de coordonnées officiel de la Suisse:</p>
-<p><img alt="" src="Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/assets/scp_ch_ti.png" /><br />
+<p><img alt="" src="../../../../_images/scp_ch_ti.png" /><br />
 <small>Source: <a href="https://www.swisstopo.admin.ch/fr/connaissances-faits/mensuration-geodesie/coordonnees.html">Swisstopo</a></small></p>
 <p>Les systèmes de coordonnées projetés possèdent souvent une <em>«fausse origine»</em>, c’est-à-dire l’origine est décalée artificiellement d’une valeur arbitraire vers le Nord (<em>«false northing»</em>) respectivement vers l’Est (<em>«false easting»</em>). Par exemple dans le cas du système de coordonnées suisse, l’origine se trouve à Berne et possède la valeur de 2’600’000 pour la coordonnée Est (x), et la valeur de 1’200’000 pour la coordonnées Nord (y). L’unité des coordonneés sont en l’occurence des mètres.</p>
 </section>
