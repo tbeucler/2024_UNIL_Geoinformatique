@@ -34,8 +34,16 @@ parts:
         - file: Geoinformatique_I/Carto/Intro_Carto/S2_carto.ipynb
           title: Chapitre 2 - Modélisation du territoire, généralisation
           sections:
-            - file: Geoinformatique_I/Carto/Tutoriel_IP/S2_Carto_tutoriel.ipynb
-              title: Tutoriel 2
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/1-modele-realite.md
+              title: Modélisation de la réalité
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/2-modvec.md
+              title: Le modèle vectoriel
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/3-modrast.md
+              title: Le modèle raster
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/4-layer.md
+              title: La notion de couche
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/5-sfs.md
+              title: La simple feature specification (SFS)
             - file: Geoinformatique_I/Carto/Exercices_Carto/S2_Carto_exercice.ipynb
               title: Exercice 2
         - file: Geoinformatique_I/Carto/Intro_Carto/S3_carto.ipynb
