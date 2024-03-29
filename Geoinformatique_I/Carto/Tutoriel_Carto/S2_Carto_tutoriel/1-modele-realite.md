@@ -5,7 +5,7 @@
   Sorry, your browser doesn't support embedded videos.
 </video>
 
-<a href="assets/modterr.pdf"><i class="far fa-file-pdf"></i> Présentation (PDF)</a>
+<a href="https://github.com/tbeucler/2024_UNIL_Geoinformatique/blob/7490dc99f7f6dbe0702563f99a0031c5f657552d/Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/assets/modterr.pdf"><i class="far fa-file-pdf"></i> Présentation (PDF)</a>
 
 ---
 
