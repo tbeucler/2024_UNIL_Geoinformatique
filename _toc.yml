@@ -16,64 +16,120 @@ parts:
           title: Chapitre 1 - Cadre général
           sections:
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/0-definitions.md
-              title: Définitions
+              title: Tutoriel 1 - Définitions
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/1-fonctions.md
-              title: Fonctions
+              title: Tutoriel 1 - Fonctions
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/2-caracteristiques.md
-              title: Caractéristiques
+              title: Tutoriel 1 - Caractéristiques
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/3-echelle.md
-              title: Echelle
+              title: Tutoriel 1 - Echelle
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/4-topo-vs-thematique.md
-              title: Topo VS Thématique
+              title: Tutoriel 1 - Topo VS Thématique
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/5-exemples.md
-              title: Exemples
+              title: Tutoriel 1 - Exemples
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S1_Carto_tutoriel/6-coordonnees.md
-              title: Coordonnées
+              title: Tutoriel 1 - Coordonnées
             - file: Geoinformatique_I/Carto/Exercices_Carto/S1_Carto_exercice.ipynb
               title: Exercice 1
         - file: Geoinformatique_I/Carto/Intro_Carto/S2_carto.ipynb
           title: Chapitre 2 - Modélisation du territoire, généralisation
           sections:
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/1-modele-realite.md
-              title: Modélisation de la réalité
+              title: Tutoriel 2 - Modélisation de la réalité
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/2-modvec.md
-              title: Le modèle vectoriel
+              title: Tutoriel 2 - Le modèle vectoriel
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/3-modrast.md
-              title: Le modèle raster
+              title: Tutoriel 2 - Le modèle raster
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/4-layer.md
-              title: La notion de couche
+              title: Tutoriel 2 - La notion de couche
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S2_Carto_tutoriel/5-sfs.md
-              title: La simple feature specification (SFS)
+              title: Tutoriel 2 - La simple feature specification (SFS)
             - file: Geoinformatique_I/Carto/Exercices_Carto/S2_Carto_exercice.ipynb
               title: Exercice 2
         - file: Geoinformatique_I/Carto/Intro_Carto/S3_carto.ipynb
           title: Chapitre 3 - Types de cartes, sémiologie graphique, règles de représentation
           sections:
-            - file: Geoinformatique_I/Carto/Tutoriel_IP/S3_Carto_tutoriel.ipynb
-              title: Tutoriel 3
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/0-intro.md
+              title: Tutoriel 3 - Types de cartes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/1-choro.md
+              title: Tutoriel 3 - Types de cartes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/2-symb-prop.md
+              title: Tutoriel 3 - Types de cartes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/3-symb-prop-col.md
+              title: Tutoriel 3 - Types de cartes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/4-courbes.md
+              title: Tutoriel 3 - Types de cartes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/5-points.md
+              title: Tutoriel 3 - Types de cartes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/6-anamorphose.md
+              title: Tutoriel 3 - Types de cartes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/7-flux.md
+              title: Tutoriel 3 - Types de cartes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/8-resume.md
+              title: Tutoriel 3 - Types de cartes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/032-fond-de-carte/1-def.md
+              title: Tutoriel 3 - Fond de carte
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/033-generalisation/0-intro.md
+              title: Tutoriel 3 - Generalisation
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/034-intro-illustrator/0-intro.md
+              title: Tutoriel 3 - Introduction à l'Illustrator
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/035-creation-fond-carte/1-intro.md
+              title: Tutoriel 3 - Création du fond de carte
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/041-semiologie/0-intro.md
+              title: Tutoriel 3 - Semiologie
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/041-semiologie/1-qualite.md
+              title: Tutoriel 3 - Semiologie
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/041-semiologie/2-var-visuelles.md
+              title: Tutoriel 3 - Semiologie
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/041-semiologie/3-types-donnees.md
+              title: Tutoriel 3 - Semiologie
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/041-semiologie/4-regles.md
+              title: Tutoriel 3 - Semiologie
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/041-semiologie/5-estethique.md
+              title: Tutoriel 3 - Semiologie
             - file: Geoinformatique_I/Carto/Exercices_Carto/S3_Carto_exercice.ipynb
               title: Exercice 3
         - file: Geoinformatique_I/Carto/Intro_Carto/S4_carto.ipynb
           title: Chapitre 4 - Indicateurs et discrétisation
           sections:
-            - file: Geoinformatique_I/Carto/Tutoriel_IP/S4_Carto_tutoriel.ipynb
-              title: Tutoriel 4
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S4_Carto_tutoriel/051-indicateurs/0-intro.md
+              title: Tutoriel 4 - Indicateurs
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S4_Carto_tutoriel/053-discretisation/0-intro.md
+              title: Tutoriel 4 - Discrétisation
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S4_Carto_tutoriel/053-discretisation/1-principe.md
+              title: Tutoriel 4 - Discrétisation
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S4_Carto_tutoriel/053-discretisation/2-distribution-statistique.md
+              title: Tutoriel 4 - Discrétisation
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S4_Carto_tutoriel/053-discretisation/3-methodes.md
+              title: Tutoriel 4 - Discrétisation
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S4_Carto_tutoriel/053-discretisation/4-discr-divergente.md
+              title: Tutoriel 4 - Discrétisation
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S4_Carto_tutoriel/053-discretisation/5-comparaison.md
+              title: Tutoriel 4 - Discrétisation
             - file: Geoinformatique_I/Carto/Exercices_Carto/S4_Carto_exercice.ipynb
               title: Exercice 4
         - file: Geoinformatique_I/Carto/Intro_Carto/S5_carto.ipynb
           title: Chapitre 5 - Habillage des cartes
           sections:
-            - file: Geoinformatique_I/Carto/Tutoriel_IP/S5_Carto_tutoriel.ipynb
-              title: Tutoriel 5
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S5_Carto_tutoriel/061-modeles-de-couleur/1-rvb.md
+              title: Tutoriel 5 - Modèle de couleur
+            - file : Geoinformatique_I/Carto/Tutoriel_Carto/S5_Carto_tutoriel/061-modeles-de-couleur/2-cmjn.md
+              title: Tutoriel 5 - Modèle de couleur
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S5_Carto_tutoriel/062-couleur-carto/0-intro.md
+              title: Tutoriel 5 - Couleur carto
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S5_Carto_tutoriel/063-couleurs-ai/0-intro.md
+              title: Tutoriel 5 - Couleur AI
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S5_Carto_tutoriel/064-legende/0-intro.md
+              title: Tutoriel 5 - Légendes
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S5_Carto_tutoriel/065-legende-ai/0-intro.md
+              title: Tutoriel 5 - Légendes AI
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S5_Carto_tutoriel/066-habillage/0-intro.md
+              title: Tutoriel 5 - Habillage
+            - file: Geoinformatique_I/Carto/Tutoriel_Carto/S5_Carto_tutoriel/067-mise-en-scene-ai/assets
+              title: Tutoriel 5 - Mise en scène AI
             - file: Geoinformatique_I/Carto/Exercices_Carto/S5_Carto_exercice.ipynb
               title: Exercice 5
-        - file: Geoinformatique_I/Carto/Intro_Carto/S6_carto.ipynb
-          title: Chapitre 6 - Principe de base des SIG
-          sections:
-            - file: Geoinformatique_I/Carto/Tutoriel_IP/S6_Carto_tutoriel.ipynb
-              title: Tutoriel 6
-            - file: Geoinformatique_I/Carto/Exercices_Carto/S6_Carto_exercice.ipynb
-              title: Exercice 6
+
     - file: Geoinformatique_I/IP/Intro_IP/intro_python.ipynb
       title: Programmation Python
       sections:
