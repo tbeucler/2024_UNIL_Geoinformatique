@@ -183,22 +183,30 @@ parts:
         - file: Geoinformatique_I/SIG/Intro_SIG/S7_SIG.ipynb
           title: Chapitre 7 - Introduction SIG & Projections
           sections:
-            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S7_SIG_tutoriel.ipynb
-              title: Tutoriel 7
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S7_SIG_tutoriel/S7_SIG_tutoriel_a.md
+              title: Tutoriel 7 - Introduction SIG & Projection
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S7_SIG_tutoriel/S7_SIG_tutoriel_b.md
+              titre: Tutoriel 7 - Modéisation Numérique de terrain (MNT) & Opérateur Topologique
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S7_SIG_tutoriel/S7_SIG_tutoriel_bb.ipynb
+              titre: Tutoriel 7 - Cartopy
             - file: Geoinformatique_I/SIG/Exercices_SIG/S7_SIG_exercice.ipynb
               title:  Exercice 7            
         - file: Geoinformatique_I/SIG/Intro_SIG/S8_SIG.ipynb
           title: Chapitre 8 - Données spatiales
           sections:
-            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S8_SIG_tutoriel.ipynb
-              title: Tutoriel 8
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S8_SIG_tutoriel/S8_SIG_tutoriel_a.md
+              title: Tutoriel 8 - OpenData, Métadonnées & Géodatabase
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S8_SIG_tutoriel/S8_SIG_tutoriel_b.md
+              titre: Tutoriel 8 - Sélections, requêtes et jointures
             - file: Geoinformatique_I/SIG/Exercices_SIG/S8_SIG_exercice.ipynb
               title: Exercice 8 
         - file: Geoinformatique_I/SIG/Intro_SIG/S9_SIG.ipynb
           title: Chapitre 9 - Géotraitement
           sections:
             - file: Geoinformatique_I/SIG/Tutoriel_SIG/S9_SIG_tutoriel.ipynb
-              title: Tutoriel 9
+              title: Tutoriel 9 - Chaîne de traitements & Agréger et délimiter des zones
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S9_SIG_tutoriel/S9_SIG_tutoriel_a.md
+              titre: Tutoriel 9 - Géopandas et shapely
             - file: Geoinformatique_I/SIG/Exercices_SIG/S9_SIG_exercice.ipynb
               title: Exercice 9 
         - file: Geoinformatique_I/SIG/Intro_SIG/S10_SIG.ipynb
