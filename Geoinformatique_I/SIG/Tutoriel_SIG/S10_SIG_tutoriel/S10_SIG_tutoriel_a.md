@@ -38,4 +38,21 @@ Le choix des variables visuelles dépend du type de données et des relations qu
 
 ![](assets/)
 
-#
+## Exemple carte votation
+![](assets/)
+![](assets/)
+![](assets/)
+![](assets/)
+![](assets/)
+![](assets/)
+
+# Mise en classes
+![](assets/)
+
+# Légende
+![](assets/)
+![](assets/)
+![](assets/)
+
+## Exemple avec Habillage
+![](assets/)

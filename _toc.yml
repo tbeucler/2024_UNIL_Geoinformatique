@@ -50,23 +50,23 @@ parts:
           title: Chapitre 3 - Types de cartes, sémiologie graphique, règles de représentation
           sections:
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/0-intro.md
-              title: Tutoriel 3 - Types de cartes
+              title: Tutoriel 3 - Types de cartes - Introduction 
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/1-choro.md
-              title: Tutoriel 3 - Types de cartes
+              title: Tutoriel 3 - Types de cartes - Choroplèthe
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/2-symb-prop.md
-              title: Tutoriel 3 - Types de cartes
+              title: Tutoriel 3 - Types de cartes - Symboles proportionnels
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/3-symb-prop-col.md
-              title: Tutoriel 3 - Types de cartes
+              title: Tutoriel 3 - Types de cartes - Symboles proportionnels colorés
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/4-courbes.md
-              title: Tutoriel 3 - Types de cartes
+              title: Tutoriel 3 - Types de cartes - En courbes
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/5-points.md
-              title: Tutoriel 3 - Types de cartes
+              title: Tutoriel 3 - Types de cartes - En points
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/6-anamorphose.md
-              title: Tutoriel 3 - Types de cartes
+              title: Tutoriel 3 - Types de cartes - Anamorphose
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/7-flux.md
-              title: Tutoriel 3 - Types de cartes
+              title: Tutoriel 3 - Types de cartes - De flux
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/031-types-cartes/8-resume.md
-              title: Tutoriel 3 - Types de cartes
+              title: Tutoriel 3 - Types de cartes - Résumé
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/032-fond-de-carte/1-def.md
               title: Tutoriel 3 - Fond de carte
             - file: Geoinformatique_I/Carto/Tutoriel_Carto/S3_Carto_tutoriel/033-generalisation/0-intro.md
