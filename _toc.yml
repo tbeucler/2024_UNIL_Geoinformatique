@@ -204,30 +204,30 @@ parts:
             - file: Geoinformatique_I/SIG/Tutoriel_SIG/S9_SIG_tutoriel.ipynb
               title: Tutoriel 9 - Chaîne de traitements & Agréger et délimiter des zones
             - file: Geoinformatique_I/SIG/Tutoriel_SIG/S9_SIG_tutoriel/S9_SIG_tutoriel_a.md
-              title: Tutoriel 9 - Géopandas et shapely
-            - file: Geoinformatique_I/SIG/Exercices_SIG/S9_SIG_exercice.ipynb
-              title: Exercice 9 
+              title: Tutoriel 9 -  Chaîne de traitements & Agréger et délimiter des zones
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S9_SIG_tutoriel/S9_SIG_tutoriel_b.ipynb
+              title: Exercice 9 - Géopandas et shapely
         - file: Geoinformatique_I/SIG/Intro_SIG/S10_SIG.ipynb
           title: Chapitre 10 - Visualisation & AI-assisted programming
           sections:
-            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S10_SIG_tutoriel.ipynb
-              title: Tutoriel 10
-            - file: Geoinformatique_I/SIG/Exercices_SIG/S10_SIG_exercice.ipynb
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S10_SIG_tutoriel/S10_SIG_tutoriel_a.md
+              title: Tutoriel 10 - Bonnes pratiques de cartographie
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S10_SIG_tutoriel/S10_SIG_tutoriel_b.md
               title: Exercice 10 
         - file: Geoinformatique_I/SIG/Intro_SIG/S11_SIG.ipynb
           title: Chapitre 11 - Analyse spatiale 1 - analyses de surface, analyse multicritère, traitements raster
           sections:
-            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S11_SIG_tutoriel.ipynb
-              title: Tutoriel 11
-            - file: Geoinformatique_I/SIG/Exercices_SIG/S11_SIG_exercice.ipynb
-              title: Exercice 11
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S11_SIG_tutoriel/S11_SIG_tutoriel_a.md
+              title: Tutoriel 11 - MNT et interpolation spatiale
+            - file: Geoinformatique_I/SIG/Tutoriel_SIG/S11_SIG_tutoriel/S11_SIG_tutoriel_b.md
+              title: Tutoriel 11 - Reclasser les valeurs d'un raster et Model builder
         - file: Geoinformatique_I/SIG/Intro_SIG/S12_SIG.ipynb
           title: Chapitre 12 - Analyse spatiale 2 - analyses de concentration et de distance, interpolation spatiale
           sections:
             - file: Geoinformatique_I/SIG/Tutoriel_SIG/S12_SIG_tutoriel.ipynb
-              title: Tutoriel 12
+              title: Tutoriel 12 - Auto-corrélation spatiale, Lissage, Analyse par contraintes et facteurs
             - file: Geoinformatique_I/SIG/Exercices_SIG/S12_SIG_exercice.ipynb
-              title: Exercice 12     
+              title: Tutoriel 12 - Statistique descriptive et Extraire des valeurs par point ou par zone
     - file: Geoinformatique_I/00_Running_Python_Scripts_fr.md
       title: Exécution des scripts Python
 - caption: Partie 2 - Méthodes quantitatives
