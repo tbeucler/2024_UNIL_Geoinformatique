@@ -1,4 +1,0 @@
-Ceci est mon premier exercice I/O.
-Je viens de me rappeler que pi est approximativement 3.1416
-Écrire dans ce fichier 
-est un jeu denfant!
